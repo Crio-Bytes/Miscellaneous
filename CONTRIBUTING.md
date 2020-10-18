@@ -37,7 +37,7 @@ For proposing a PR with updates to an existing MicroByte, utilise PR template `u
 
 
 
-#### Instructions regarding traditional workflow
+### Instructions regarding traditional workflow
 
 **</> Git Workflow </>**
 
