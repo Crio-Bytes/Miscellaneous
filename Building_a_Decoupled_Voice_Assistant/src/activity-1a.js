@@ -1,6 +1,7 @@
-const SpeechRecognition = webkitSpeechRecognition || SpeechRecognition;
-const SpeechGrammarList = webkitSpeechGrammarList || SpeechGrammarList;
-const SpeechRecognitionEvent = webkitSpeechRecognitionEvent || SpeechRecognitionEvent;
+// comment the following three lines if on firefox
+const SpeechRecognition = webkitSpeechRecognition;
+const SpeechGrammarList = webkitSpeechGrammarList;
+const SpeechRecognitionEvent = SpeechRecognitionEvent;
 
 const recognition = new SpeechRecognition();
 recognition.lang = 'en-IN';
