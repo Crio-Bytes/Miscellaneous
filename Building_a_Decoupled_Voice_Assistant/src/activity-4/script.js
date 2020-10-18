@@ -5,20 +5,20 @@ const SpeechRecognition = webkitSpeechRecognition || SpeechRecognition;
 const SpeechGrammarList = webkitSpeechGrammarList || SpeechGrammarList;
 const SpeechRecognitionEvent = webkitSpeechRecognitionEvent || SpeechRecognitionEvent;
 
+const startAudio = new Audio('./on.mp3');
+const stopAudio = new Audio('./off.mp3');
+
 const recognition = new SpeechRecognition();
 recognition.lang = 'en-IN';
 
 const SpeechSynthesis = window.speechSynthesis;
 
 const handleInvalidTrigger = () => {
-  // TODO: Toggle the 'danger' class on speakBtn
-
-  // TODO: Set the textContent property for textLbl to 'invalid phrase'
-
+  speakBtn.classList.toggle('danger');
+  textLbl.textContent = `invalid phrase`;
   SpeechSynthesis.speak(
     new SpeechSynthesisUtterance('invalid phrase')
   );
-
   setTimeout(() => {
     speakBtn.disabled = false;
     speakBtn.classList.toggle('danger');
@@ -35,26 +35,39 @@ const resetButton = () => {
 
 recognition.onstart = () => {
   speakBtn.disabled = true;
+  startAudio.play();
   textLbl.textContent = `listening`;
   speakBtn.classList.toggle('listening');
 };
 
 recognition.onresult = (event) => {
   let result = event.results[0][0].transcript;
-  // TODO: change the condition of the if statement
-  // so that the block is execute only when the result
-  // includes 'colour' or 'food'
-  if (true) {
+  if (result.includes('learn') || result.includes('colour')) {
     if (result.includes('colour')) {
-      textLbl.textContent = `i can not get a colour`;
       SpeechSynthesis.speak(
-        new SpeechSynthesisUtterance(`i can not get a colour`)
+        new SpeechSynthesisUtterance(`looking for a colour`)
       );
-      resetButton();
-    } else {
-      // TODO: Inform the user that the assistant cannot cook
-      // a food item. Make sure you set the textContent for the
-      // textLbl and speak the phrase using SpeechSynthesis
+      fetch(
+        '/.netlify/functions/colour'
+      )
+        .then(r => r.json())
+        .then(d => {
+          textLbl.textContent = `i think ${d.data} is a good colour`;
+          SpeechSynthesis.speak(
+            new SpeechSynthesisUtterance(`i think ${d.data} is a good colour`)
+          );
+          resetButton();
+        });
+    }
+    // TODO: if the user wants to learn,
+    // fetch a random microbyte from a
+    // serverless function
+    // hint: /.netlify/functions/microbyte 
+    else {
+      textLbl.textContent = `i can not find a microbyte`;
+      SpeechSynthesis.speak(
+        new SpeechSynthesisUtterance(`i can not find a microbyte`)
+      );
       resetButton();
     }
   } else {
@@ -77,6 +90,7 @@ recognition.onerror = () => {
 
 recognition.onspeechend = () => {
   speakBtn.classList.toggle('listening');
+  stopAudio.play();
   recognition.stop();
 };
 

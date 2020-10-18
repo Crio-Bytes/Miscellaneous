@@ -7,7 +7,7 @@ const recognition = new SpeechRecognition();
 recognition.lang = 'en-IN';
 
 recognition.onresult = (event) => {
-  console.log(event.results);
+  // TODO: log the results object in event to the console
 };
 
 recognition.onspeechend = () => {

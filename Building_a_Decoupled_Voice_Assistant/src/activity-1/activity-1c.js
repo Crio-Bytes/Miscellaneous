@@ -19,15 +19,11 @@ recognition.onresult = (event) => {
   }
   else if (result.includes('book')) {
     console.log('ACTION: looking for a book');
-    SpeechSynthesis.speak(
-      new SpeechSynthesisUtterance('looking for a book')
-    );
+    // TODO: reply back to the user using the message logged to console
   }
   else {
     console.log('ACTION: can not do anything about it');
-    SpeechSynthesis.speak(
-      new SpeechSynthesisUtterance('can not do anything about it')
-    );
+    // TODO: reply back to the user using the message logged to console
   }
 };
 

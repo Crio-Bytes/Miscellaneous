@@ -7,7 +7,10 @@ const recognition = new SpeechRecognition();
 recognition.lang = 'en-IN';
 
 recognition.onresult = (event) => {
-  let result = event.results[0][0].transcript;
+  let result;
+  // TODO: assign the first phrase heard to result
+  // and make sure that the correct statement is printed
+  // Hint: observe the structure of event.results
   console.log('HEARD: ' + result);
   if (result.includes('colour'))
     console.log('ACTION: looking for a colour');
