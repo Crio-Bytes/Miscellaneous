@@ -98,11 +98,14 @@ $ git fetch upstream
 $ git checkout main
 $ git merge upstream/main
 
-## Delete branch from forked repository
-# Deleting the branch in local repository
-$ git branch -d <branch-name>
-# Deleting the branch in remote repository
-$ git push --delete origin <branch-name>
+## Deleting the branch in local repository
+# If PR is merged
+$ git branch -d <branch-name>  
+# If PR is closed/rejected
+$ git branch -D <branch-name>  
+
+## Deleting the branch in remote repository
+$ git push origin --delete <branch-name>
 ```
 
 
