@@ -90,6 +90,10 @@ After you are done with styling the user interface, write a script to detect a c
 
 > Refer `src/activity-3/script.js` in this folder.
 
+The front-end that we have implemented looks like this:
+
+> Refer `images/activity-3/activity-3.gif` in this folder.
+
 At the end of this activity, you would have built the interface which an user can use to interact with your assistant.
 
 ## Activity 4 - Interface the Assistant with your Backend
