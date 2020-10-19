@@ -36,34 +36,45 @@ Unlike VMs, Containers don't need a Guest OS to run the application and since al
 # Activities
 ## Activity 1: Build a Spring Application
 Before containerizing an application we need an application, since we are focusing on Spring we use Spring Initializr to create a Spring Application.(you can containerize any application such as a node.js app or a django app or flask app etc.)
+
 ![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/spring_initalizr.png)
+
 After downloading the .zip file. Extract the folder and open it in your IDE.
 Open Application.java and write the following code.
 What we are doing is creating a simple REST api which returns a string "This is a docker application".
+
 ![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/spring_app_code.png)
+
 Now build and run the application using `./gradlew build bootrun` in the terminal.
 Make sure the application runs perfectly without any errors and you see the output string on localhost:8080 in your browser.
+
 ![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/application_running_in_browser.png)
 
 ## Activity 2: Make a Dockerfile
 The Docker engine looks for a "Dockerfile" in you application folder. This file is used to build container images which are later used to build containers. It is a 3 step process. Dockerfile -> Container Image -> Container.
 Create a newfile called "Dockerfile" in the application folder. This file should be inside the root folder - application/Dockerfile.
+
 ![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/dockerfile_code.png)
-A docker file starts with FROM which initializes a new build and sets a base image. We use `openjdk:8-jdk-alpine` which means that we are using an alpine (A lightweight linux distribution) based image with contains Java 8 JDK and JRE.
-ARG defines a variable that users can pass at build time.
-The COPY instruction copies the .jar file to the container filesystem.
-ENTRYPOINT allows you to configure a container that will run as an executable. We use the exec form for ENTRYPOINT t execute the java application, using the jar file, without shell wrapping.
+
+A docker file almost always starts with `FROM` which initializes a new build and sets a base image. `openjdk:8-jdk-alpine` which means that we are using an alpine (A lightweight linux distribution) based image with contains Java 8 JDK and JRE.
+`ARG` defines a variable that users can pass at build time.
+The `COPY` instruction copies the .jar file to the container filesystem.
+`ENTRYPOINT` allows you to configure a container that will run as an executable. We use the exec form for `ENTRYPOINT` to execute the java application, using the jar file, without shell wrapping.
 
 ## Actvity 3: Build the container image
 Now that we have a Dockerfile we can go ahead and use it to build a container image using command below.
+
 ![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/docker_build.png)
+
 the `docker build` command is used to build an image from a Dockerfile.
 `--build-arg` specifies the arguments to be passed to `ARG` in the Dockerfile.
 `-t` is used to tag the image.
 (When executing the build command inside the root folder donot forget the `.` at the end)
 
 Now that we have an image, we can use it to create containers. We can create containers using the `docker run` command. 
+
 ![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/docker_run.png)
+
 `-p` specifes the port used, 8080 in our case. 
 When we check the `localhost:8080` our browser we can see the application running.
 
@@ -73,13 +84,17 @@ Using `docker ps` we can see the running containers. In order to stop a containe
 Our application runs perfectly in a container. Now it's time to share our container image so that others can use it to run our application.
 Docker Hub helps us create repositories and share images. If you don't have a Docker Hub account go ahead and create one at ![hub.docker.com].
 Create a repository to store our container images. 
+
 ![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/create_a_docker_repository.png)
+
 Now inorder to upload our image to our repository the image needs to follow a particular format <YOUR_USERNAME>/<YOUR_REPOSITORY>:tag.
 Go ahead and tag the existing image in such format using `docker tag`
 There is only one thing left to do, push the image to docker hub using `docker push`.
+
 ![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/docker_push.png)
 
 You can check your repository on Docker Hub to see the uploaded image.
+
 ![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/container_in_docker_hub.png)
 
 ## Activity 5 (Optional): Pull the images and run the application on other machine.
@@ -93,6 +108,6 @@ Try this experiment on your friend's laptop or use your own Terminal (cmd) to do
 We created a spring application and containerized it using docker. We also used Docker Hub to share our container images. 
 
 ## REFERENCES 
-* ![Docker Docs](https://docs.docker.com/)
-* ![Spring Guide on Docker](https://spring.io/guides/gs/spring-boot-docker/)
+* [Docker Docs](https://docs.docker.com/)
+* [Spring Guide on Docker](https://spring.io/guides/gs/spring-boot-docker/)
 
