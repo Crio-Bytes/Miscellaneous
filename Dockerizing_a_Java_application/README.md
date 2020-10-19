@@ -6,6 +6,8 @@ There could be several reasons. Maybe Sonia's machine does not have some depende
 
 This is a problem we often encounter in our development cycles. How do we solve it? Is there anyone who can help Sonia?
 ![Docker image](https://pbs.twimg.com/profile_images/1273307847103635465/lfVWBmiW_400x400.png)
+
+![Another Image](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/I%20can%20help%20you!.png)
 ## Docker
 Docker is an open platform for developing, shipping, and running applications by using containers. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 
