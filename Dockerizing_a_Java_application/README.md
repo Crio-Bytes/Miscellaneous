@@ -1,20 +1,20 @@
-##Getting Started with Docker
+# Getting Started with Docker
 
 Dev and Sonia were two friends who were working on an application. Dev started with his work first. He went ahead and created a repository. He then wrote some code, tested the application and uploaded his files to the repository. Now Sonia wanted to further develop the application so she cloned the repository on her local machine and tried to run the application...ERRRRRR! it doesnot work. She tried everything from shaking her laptop to banging the keyboard to singing to her computer. Dev raised his hands by saying, the infamous, "It worked on my machine". Alas, the application doesn't run. Why?
 
 There could be several reasons. Maybe Sonia's machine does not have some dependencies required to run the application or maybe because Dev has a Macbook with macOS and Sonia has a Dell with Windows so there could be some OS level errors.
 
 This is a problem we often encounter in our development cycles. How do we solve it? Is there anyone who can help Sonia?
-
-#Docker
+![Docker image] (https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40karthi.net%2Fhow-to-run-multiple-services-in-a-docker-container-5919fcc981a6&psig=AOvVaw3pVtbH1l6xZJ5oKGEp7xF5&ust=1603180376718000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKidrIOXwOwCFQAAAAAdAAAAABAD)
+## Docker
 Docker is an open platform for developing, shipping, and running applications by using containers. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 
-What is a container?
+**What is a container?**
 A container is standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to other. Containers provide an isolated execution environment to run the application. Containers are great for continuous integration and continuous delivery (CI/CD) workflows.
 
 A container is built using a container image which is a package of software that includes EVERYTHING needed to run an application: code, runtime, system tools, system libraries and settings. A container image and container are like a class and object. You can create many containers using a container image. 
 
-Docker removes the "It worked on my machine" phrase from a developer's life because now it can work anywhere. The best part is you can develop an application on a Windows machine and run it on a Linux machine without any errors because everything needed to run the application is there in the container.
+Docker removes the "It worked on my machine" phrase from a developer's life because now it can work anywhere. The best part is that you can develop an application on a Windows machine and run it on a Linux machine without any errors because everything needed to run the application is present inside the container.
 
 How is a Virtual Machine different from a container?
 Unlike VMs, Containers don't need a Guest OS to run the application and since all the dependencies are already there you don't need to install anything, this makes containers lightweight (they are usually tens of MBs unlike VMs which are hundreds of MBs). Containers don’t need the extra load of a hypervisor, but run directly within the host machine’s kernel. This means you can run more containers on a given hardware combination than if you were using virtual machines. You can even run Docker containers within host machines that are actually virtual machines!
