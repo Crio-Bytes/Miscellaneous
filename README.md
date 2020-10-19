@@ -1,4 +1,26 @@
 # Introduction
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The definition of **miscellaneous** are things that are varied or mixed and cannot easily be categorised or grouped. Thus forming the home for all of our miscellaneous MicroBytes.
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://sudipto.ghosh.pro"><img src="https://avatars3.githubusercontent.com/u/11232940?v=4" width="100px;" alt=""/><br /><sub><b>Sudipto Ghosh</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=sudiptog81" title="Code">💻</a> <a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=sudiptog81" title="Documentation">📖</a> <a href="#ideas-sudiptog81" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-sudiptog81" title="Content">🖋</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
