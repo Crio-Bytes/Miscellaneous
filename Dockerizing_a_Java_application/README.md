@@ -40,10 +40,10 @@ Before containerizing an application we need an application, since we are focusi
 ![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/spring_initalizr.png)
 
 After downloading the .zip file. Extract the folder and open it in your IDE.
-Open Application.java and write the following code.
-What we are doing is creating a simple REST api which returns a string "This is a docker application".
+Open `Application.java` file of your application and build a simple REST api using `@RestController` and `@RequestMapping`.
+Write a function which returns a string when the api is called.
 
-![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/spring_app_code.png)
+> Refer src/dockerapp/src/main/java/com/crio/dockerapp/DockerappApplication.java
 
 Now build and run the application using `./gradlew build bootrun` in the terminal.
 Make sure the application runs perfectly without any errors and you see the output string on localhost:8080 in your browser.
@@ -52,11 +52,16 @@ Make sure the application runs perfectly without any errors and you see the outp
 
 ## Activity 2: Make a Dockerfile
 The Docker engine looks for a "Dockerfile" in you application folder. This file is used to build container images which are later used to build containers. It is a 3 step process. Dockerfile -> Container Image -> Container.
-Create a newfile called "Dockerfile" in the application folder. This file should be inside the root folder - application/Dockerfile.
+Create a newfile called "Dockerfile" in the application folder. This file should be inside the root folder -`application/Dockerfile`
+Check out the code in the Dockerfile.
+```
+FROM openjdk:8-jdk-alpine
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","app.jar"]
+```
 
-![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/dockerfile_code.png)
-
-A docker file almost always starts with `FROM` which initializes a new build and sets a base image. `openjdk:8-jdk-alpine` which means that we are using an alpine (A lightweight linux distribution) based image with contains Java 8 JDK and JRE.
+A docker file almost always starts with `FROM` which initializes a new build and sets a base image. `openjdk:8-jdk-alpine` which means that we are using an alpine (A lightweight linux distribution) based image as our base image with contains Java 8 JDK and JRE.
 `ARG` defines a variable that users can pass at build time.
 The `COPY` instruction copies the .jar file to the container filesystem.
 `ENTRYPOINT` allows you to configure a container that will run as an executable. We use the exec form for `ENTRYPOINT` to execute the java application, using the jar file, without shell wrapping.
@@ -67,7 +72,7 @@ Now that we have a Dockerfile we can go ahead and use it to build a container im
 ![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/docker_build.png)
 
 the `docker build` command is used to build an image from a Dockerfile.
-`--build-arg` specifies the arguments to be passed to `ARG` in the Dockerfile.
+`--build-arg` specifies the arguments, a JAR of our application present in `application/build/libs/`, to be passed to `ARG` in the Dockerfile.
 `-t` is used to tag the image.
 (When executing the build command inside the root folder donot forget the `.` at the end)
 
@@ -87,7 +92,7 @@ Create a repository to store our container images.
 
 ![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/create_a_docker_repository.png)
 
-Now inorder to upload our image to our repository the image needs to follow a particular format <YOUR_USERNAME>/<YOUR_REPOSITORY>:tag.
+Now inorder to upload our image to our repository the image needs to follow a particular format `<YOUR_USERNAME>/<YOUR_REPOSITORY>:tag`.
 Go ahead and tag the existing image in such format using `docker tag`
 There is only one thing left to do, push the image to docker hub using `docker push`.
 
