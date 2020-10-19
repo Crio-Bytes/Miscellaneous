@@ -6,7 +6,7 @@ There could be several reasons. Maybe Sonia's machine does not have some depende
 
 This is a problem we often encounter in our development cycles. How do we solve it? Is there anyone who can help us?
 
-![Another Image](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/I%20can%20help%20you!.png)
+![Another Image](https://github.com/raziiiuddin/Miscellaneous/blob/main/Getting_started_with_docker/images/I%20can%20help%20you!.png)
 
 ## Docker
 Docker is an open platform for developing, shipping, and running applications by using containers. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. Lying at the heart of Docker are containers.
@@ -37,7 +37,7 @@ Unlike VMs, Containers don't need a Guest OS to run the application and since al
 ## Activity 1: Build a Spring Application
 Before containerizing an application we need an application, since we are focusing on Spring we use Spring Initializr to create a Spring Application.(you can containerize any application such as a node.js app or a django app or flask app etc.)
 
-![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/spring_initalizr.png)
+![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Getting_started_with_docker/images/spring_initalizr.png)
 
 After downloading the .zip file. Extract the folder and open it in your IDE.
 Open `Application.java` file of your application and build a simple REST api using `@RestController` and `@RequestMapping`.
@@ -48,7 +48,7 @@ Write a function which returns a string when the api is called.
 Now build and run the application using `./gradlew build bootrun` in the terminal.
 Make sure the application runs perfectly without any errors and you see the output string on localhost:8080 in your browser.
 
-![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/application_running_in_browser.png)
+![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Getting_started_with_docker/images/application_running_in_browser.png)
 
 ## Activity 2: Make a Dockerfile
 The Docker engine looks for a "Dockerfile" in you application folder. This file is used to build container images which are later used to build containers. It is a 3 step process. Dockerfile -> Container Image -> Container.
@@ -69,7 +69,7 @@ The `COPY` instruction copies the .jar file to the container filesystem.
 ## Actvity 3: Build the container image and run a container
 Now that we have a Dockerfile we can go ahead and use it to build a container image using command below.
 
-![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/docker_build.png)
+![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Getting_started_with_docker/images/docker_build.png)
 
 the `docker build` command is used to build an image from a Dockerfile.
 `--build-arg` specifies the arguments, a JAR of our application present in `application/build/libs/`, to be passed to `ARG` in the Dockerfile.
@@ -78,7 +78,7 @@ the `docker build` command is used to build an image from a Dockerfile.
 
 Now that we have an image, we can use it to create containers. We can create containers using the `docker run` command. 
 
-![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/docker_run.png)
+![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Getting_started_with_docker/images/docker_run.png)
 
 `-p` specifes the port used, 8080 in our case. 
 When we check the `localhost:8080` our browser we can see the application running.
@@ -90,23 +90,23 @@ Our application runs perfectly in a container. Now it's time to share our contai
 Docker Hub helps us create repositories and share images. If you don't have a Docker Hub account go ahead and create one at ![hub.docker.com].
 Create a repository to store our container images. 
 
-![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/create_a_docker_repository.png)
+![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Getting_started_with_docker/images/create_a_docker_repository.png)
 
 Now inorder to upload our image to our repository the image needs to follow a particular format `<YOUR_USERNAME>/<YOUR_REPOSITORY>:tag`.
 Go ahead and tag the existing image in such format using `docker tag`
 There is only one thing left to do, push the image to docker hub using `docker push`.
 
-![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/docker_push.png)
+![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Getting_started_with_docker/images/docker_push.png)
 
 You can check your repository on Docker Hub to see the uploaded image.
 
-![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/container_in_docker_hub.png)
+![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Getting_started_with_docker/images/container_in_docker_hub.png)
 
 ## Activity 5 (Optional): Run the application on other machine.
 Now that you have a container image in your repository you can pull that image using `docker pull <YOUR_USERNAME>/<YOUR_REPOSITORY>:tag` and create containers using `docker run -p 8080:8080 `.
 Try this experiment on your friend's laptop or use your own Terminal (cmd) to do this.
 
-![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Dockerizing_a_Java_application/images/docker_pull.png)
+![](https://github.com/raziiiuddin/Miscellaneous/blob/main/Getting_started_with_docker/images/docker_pull.png)
 
 
 ## SUMMARY 
