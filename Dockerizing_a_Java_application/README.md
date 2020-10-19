@@ -5,7 +5,7 @@ Dev and Sonia were two friends who were working on an application. Dev started w
 There could be several reasons. Maybe Sonia's machine does not have some dependencies required to run the application or maybe because Dev has a Macbook with macOS and Sonia has a Dell with Windows so there could be some OS level errors.
 
 This is a problem we often encounter in our development cycles. How do we solve it? Is there anyone who can help Sonia?
-![Docker image] (https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40karthi.net%2Fhow-to-run-multiple-services-in-a-docker-container-5919fcc981a6&psig=AOvVaw3pVtbH1l6xZJ5oKGEp7xF5&ust=1603180376718000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKidrIOXwOwCFQAAAAAdAAAAABAD)
+![Docker image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40karthi.net%2Fhow-to-run-multiple-services-in-a-docker-container-5919fcc981a6&psig=AOvVaw3pVtbH1l6xZJ5oKGEp7xF5&ust=1603180376718000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKidrIOXwOwCFQAAAAAdAAAAABAD)
 ## Docker
 Docker is an open platform for developing, shipping, and running applications by using containers. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 
