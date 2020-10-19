@@ -1,7 +1,8 @@
-# Introduction
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+# Introduction
 
 The definition of **miscellaneous** are things that are varied or mixed and cannot easily be categorised or grouped. Thus forming the home for all of our miscellaneous MicroBytes.
 
