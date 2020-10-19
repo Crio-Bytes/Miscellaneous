@@ -48,6 +48,15 @@
         "review",
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "CrioDo",
+      "name": "Crio.Do",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/51743602?v=4",
+      "profile": "https://crio.do/",
+      "contributions": [
+        "eventOrganizing"
+      ]
     }
   ],
   "contributorsPerLine": 7,
