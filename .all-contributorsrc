@@ -71,6 +71,16 @@
         "maintenance",
         "review"
       ]
+    },
+    {
+      "login": "Kevinpaulose05",
+      "name": "Kevin Paulose",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/64629493?v=4",
+      "profile": "https://kevinpaulose05.github.io/",
+      "contributions": [
+        "review",
+        "eventOrganizing"
+      ]
     }
   ],
   "contributorsPerLine": 7,
