@@ -57,6 +57,20 @@
       "contributions": [
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "Ak-Shaw",
+      "name": "Ayush Kumar Shaw",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/51538194?v=4",
+      "profile": "http://ak-shaw-portfolio.netlify.app",
+      "contributions": [
+        "code",
+        "doc",
+        "eventOrganizing",
+        "ideas",
+        "maintenance",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
