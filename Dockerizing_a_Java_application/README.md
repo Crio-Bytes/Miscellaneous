@@ -28,7 +28,7 @@ Unlike VMs, Containers don't need a Guest OS to run the application and since al
 
 
 # Prerequisites
-* Docker installed on your machine. If you are a windows user you can follow ![my guide on medium](https://medium.com/@raziuddin033/docker-101-installation-on-windows-10-f979ecf1aedb). 
+* Docker installed on your machine. If you are a windows user you can follow [my guide on medium](https://medium.com/@raziuddin033/docker-101-installation-on-windows-10-f979ecf1aedb). 
 * An IDE. I used IntelliJ IDEA but you can use Visual Studio Code as well.
 * A little knowledge of Java and Spring can help but it is not mandatory.
 * Curiosity and Excitement (very very important)
