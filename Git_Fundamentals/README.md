@@ -1,4 +1,4 @@
-# Introduction
+﻿# Introduction
 There comes a certain point in every new developers journey where they need to manage the entirety of their application. I’m not talking about deploying a project, but in reference to managing all the files of your project in one specific location. Say you have a project saved to your desktop and one day your system crashes.  How terrible would it be if that file was just gone. Well this is where version control software comes into the picture! 
 
 # What is Git ?
@@ -28,7 +28,7 @@ Create a account in [Github](https://github.com/).
 
 Click the [link](https://gitforwindows.org/) to install git in your machine.
 
-Open your terminal and Make sure you have installed Git.
+Open your terminal and make sure you have installed Git.
 ```
 $ git --version
 ```
@@ -46,6 +46,7 @@ $ git config --global --list # To check the info you just provided
 Create a Repo in [Github](https://github.com/). You can choose between public and private repo.
 Public Repositories : They're visible to any user on GitHub.
 Private Repositories : They're only available to the repository owner.
+
 ![Git Hub Repo](https://github.com/itherohit/Miscellaneous/blob/GitMicroByte/Git_Fundamentals/images/GithubRepo.JPG)
 
 
@@ -185,3 +186,10 @@ You’ve successfully forked and contributed back to a repository.
 * You Pushed a Commit That Has a Problem in It
 * Spelling mistake on branch name
 * Accidentally committed all changes to the master branch
+
+
+## References & Useful links
+* [https://git-scm.com/doc](https://git-scm.com/doc)
+* [Blog](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
+* [Atlassian Tutorial](https://www.atlassian.com/git/tutorials)
+* [Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
