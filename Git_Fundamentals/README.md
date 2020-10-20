@@ -46,7 +46,7 @@ $ git config --global --list # To check the info you just provided
 Create a Repo in [Github](https://github.com/). You can choose between public and private repo.
 Public Repositories : They're visible to any user on GitHub.
 Private Repositories : They're only available to the repository owner.
-![alt text](https://github.com/itherohit/Miscellaneous/blob/main/Git_Fundamentals/images/image.jpg?raw=true)
+![Git Hub Repo](https://github.com/itherohit/Miscellaneous/blob/GitMicroByte/Git_Fundamentals/images/GithubRepo.JPG)
 
 
 In your local machine make a folder and Create a file
