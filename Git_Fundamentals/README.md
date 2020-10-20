@@ -88,14 +88,20 @@ Get the remote url from Github.
 The git remote command lets you create, view, and delete connections to other repositories.
 
 ```bash
-$ git branch -M main         #Eager to know about this command than google it
+$ git branch -M main         #Eager to know about this command then google it
 $ git push -u origin main    #For the first time
 $ git push
 ```
 Now the git push command pushes the changes in your local repository up to the remote repository you specified as the origin.
 
+![Git Hub Repo](https://github.com/itherohit/Miscellaneous/blob/GitMicroByte/Git_Fundamentals/images/Basics.JPG)
+
+
 And now if we go and check our repository page on GitHub it should look something like this:
-[img]
+
+
+![Git Hub Repo](https://github.com/itherohit/Miscellaneous/blob/GitMicroByte/Git_Fundamentals/images/Initial.JPG)
+
 
 ### See the Changes you made to your file:
 
