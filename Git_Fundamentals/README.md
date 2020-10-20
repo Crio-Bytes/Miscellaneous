@@ -87,6 +87,8 @@ Get the remote url from Github.
 The git remote command lets you create, view, and delete connections to other repositories.
 
 ```bash
+$ git branch -M main         #Eager to know about this command than google it
+$ git push -u origin main    #For the first time
 $ git push
 ```
 Now the git push command pushes the changes in your local repository up to the remote repository you specified as the origin.
