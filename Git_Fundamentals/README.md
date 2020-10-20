@@ -20,7 +20,7 @@ A repository also know as repo is nothing but a collection of source code.
 ### There are four fundamental elements in the Git Workflow.
 
 Working Directory, Staging Area, Local Repository and Remote Repository.
-![img](https://miro.medium.com/max/700/1*iL2J8k4ygQlg3xriKGimbQ.png)
+![img](https://github.com/itherohit/Miscellaneous/blob/GitMicroByte/Git_Fundamentals/images/workflow.png)
 
 ## Installation
 
@@ -120,10 +120,12 @@ Now we know how to add files to our repo. Let's learn how to download and work o
 ```bash
 $ git clone remote_repo_url
 ```
+
+![Git Clone](https://github.com/itherohit/Miscellaneous/blob/GitMicroByte/Git_Fundamentals/images/Clone.jpg)
+
 Now that repo will be available locally. You can now change files and add it to your own repository.
 
 Open the folder in your favorite text editor and modify the content present in it. Then initialize git and push it to your repo.
-[img]
 
 ```bash
 $ git init
@@ -151,6 +153,8 @@ $ git merge
 ```
 This command lets you to merge your new branch with  main.
 
+![Git Changes](https://github.com/itherohit/Miscellaneous/blob/GitMicroByte/Git_Fundamentals/images/Changes.jpg)
+
 If your working in a team and your teammate makes changes and pushes it to the repo. You can directly get all the changes to your local machine by git pull command.
 
 ```bash
@@ -163,7 +167,7 @@ git pull runs git fetch with the given parameters and calls git merge to merge t
 
 Creating a “fork” is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit Pull Requests to help make other people's projects better by offering your changes up to the original project.
 
-
+![Fork](https://github.com/itherohit/Miscellaneous/blob/GitMicroByte/Git_Fundamentals/images/Fork.JPG)
 
 ## Making and pushing changes
 
@@ -172,6 +176,8 @@ Go ahead and make a few changes to the project using your favorite text editor.
 When you’re ready to submit your changes, stage and commit your changes.
 
 ## Making a Pull Request
+
+![PR](https://github.com/itherohit/Miscellaneous/blob/GitMicroByte/Git_Fundamentals/images/PR.JPG)
 
 At last, you’re ready to propose changes into the main project! This is the final step in producing a fork of someone else’s project, and arguably the most important.
 
