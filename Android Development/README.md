@@ -14,11 +14,14 @@ You need to familiar with JAVA basics and some XML for styling the app.
 First you need to install the JDK(Java Development Kit) on your local machine from here https://www.oracle.com/java/technologies/javase-jdk15-downloads.html. If you face any problem in installing the JDK, go to youtube there are many tutorials how to install JDK. One of them is https://rb.gy/qvic45. 
 After installing JDK, now you need to install the Android Studio from here:  https://rb.gy/6op4ac 
 
+When opening the android studio, create a project and you can do follow these steps:
+1. After creating the projec, replacing your activity_main.xml and MainActivity.java  with our activity_main.xml and MainActivity.java or you can simply copy the code and paste it into your file.
+
 # Activities
 
 Please have a look for screenshot of this app which is provided in images folder in this microbyte. After you make this app successfully, your app looks like that screenshot which is in images folder.
 
-## Activity 1 : Improving layout in activity_main.xml
+## Activity 1 : Improving layout in activity_main.xml 
 
 In this app, you will see the grid, X shaped, O shaped images which is provided to you in img folder(Inside the images folder).
 On the top of the app, there is the name of the app "Tic Tac Toe".
