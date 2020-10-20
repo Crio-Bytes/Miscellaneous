@@ -52,9 +52,9 @@ Private Repositories : They're only available to the repository owner.
 
 In your local machine make a folder and Create a file
 ```bash
-mkdir NewRepo
-cd NewRepo
-touch index.txt
+mkdir SampleRepo
+cd SampleRepo
+touch sample.txt       #Create a txt file
 ```
 
 For every project we work with git, we have to initialize a git repo.
