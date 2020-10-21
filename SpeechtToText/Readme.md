@@ -27,7 +27,7 @@ Java and XML are the two main programming languages used in Android App developm
 
 References:
 
-[android  - Introduction](https://www.javatpoint.com/android-tutorial)
+  [android  - Introduction](https://www.javatpoint.com/android-tutorial)
 
 
 ## Activity 1-
@@ -36,10 +36,14 @@ How to create UI in android  add TextView  and ImageButton. read comments and ad
 ![alt image](https://github.com/Nikhilananddev/Miscellaneous/blob/Nikhilanand/SpeechToText/add/SpeechtToText/Images/LayoutDesign.png)
 References:
 
-[TextView] (https://developer.android.com/reference/android/widget/TextView)
+[TextView] (https://developer.android.com/reference/android/widget/TextView) 
+
+
  [TextView]        ( https://www.tutorialspoint.com/android/android_textview_control.htm)
  
  [ImageButton]        ( https://developer.android.com/reference/android/widget/ImageButton)
+ 
+ 
  [ImageButton]        (https://www.tutorialspoint.com/android/android_imagebutton_control.htm)
 
 
@@ -48,6 +52,8 @@ References:
 > NOTE:This activity links java with view.
 link view  in mainactivity by FindViewbyId
 [How to connect a layout view with an activity]  https://stackoverflow.com/questions/2198788/how-to-connect-a-layout-view-with-an-activity
+
+
 [Layouts ]    https://developer.android.com/guide/topics/ui/declaring-layout
 
 
@@ -60,6 +66,11 @@ link view  in mainactivity by FindViewbyId
 
 
   [Intent] https://developer.android.com/reference/android/content/Intent
+  
+  
 [RecognizerIntent] https://developer.android.com/reference/android/speech/RecognizerIntent
+
   [Android Basics by Google] https://www.udacity.com/course/android-basics-nanodegree-by-google--nd80
+  
+  
 - ## [How to create speech to text app](https://medium.com/voice-tech-podcast/android-speech-to-text-tutorial-8f6fa71606ac)
