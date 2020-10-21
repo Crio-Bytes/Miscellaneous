@@ -33,10 +33,10 @@ References:
 ## Activity 1-
 
 How to create UI in android  add TextView  and ImageButton. read comments and add codes -> UI
-![alt image](http://url/to/img.png)
+![alt image](https://github.com/Nikhilananddev/Miscellaneous/blob/Nikhilanand/SpeechToText/add/SpeechtToText/Images/LayoutDesign.png)
 References:
 
-[TextView](https://developer.android.com/reference/android/widget/TextView)
+[TextView] (https://developer.android.com/reference/android/widget/TextView)
  [TextView]        ( https://www.tutorialspoint.com/android/android_textview_control.htm)
  
  [ImageButton]        ( https://developer.android.com/reference/android/widget/ImageButton)
