@@ -103,6 +103,18 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "raziiiuddin",
+      "name": "Syed Khaja Raziuddin",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/53375172?v=4",
+      "profile": "https://github.com/raziiiuddin",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
