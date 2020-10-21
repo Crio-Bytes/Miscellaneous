@@ -31,26 +31,38 @@ References:
 
 
 ## Activity 1-
+First of all, create a new Android Studio project and in the manifest file add the following user-permissions:
+```
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.texttospeech">
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    ```
+    
+ Now in the activity_main.xml file, we will add an TextView and an ImageButton.I will not explain the layout file as I don’t want to waste anybody’s time who is here to learn the Speech to Text.
 
 How to create UI in android  add TextView  and ImageButton. read comments and add codes -> UI
 ![alt image](https://github.com/Nikhilananddev/Miscellaneous/blob/Nikhilanand/SpeechToText/add/SpeechtToText/Images/LayoutDesign.png)
+
+
+
 References:
 
 [TextView] (https://developer.android.com/reference/android/widget/TextView) 
 
-
- [TextView]        ( https://www.tutorialspoint.com/android/android_textview_control.htm)
- 
  [ImageButton]        ( https://developer.android.com/reference/android/widget/ImageButton)
  
  
- [ImageButton]        (https://www.tutorialspoint.com/android/android_imagebutton_control.htm)
 
 
 ## Activity 2-
+## Let’s dive into the MainActivity.java file.
+
 
 > NOTE:This activity links java with view.
 link view  in mainactivity by FindViewbyId
+
 [How to connect a layout view with an activity]  https://stackoverflow.com/questions/2198788/how-to-connect-a-layout-view-with-an-activity
 
 
@@ -59,8 +71,21 @@ link view  in mainactivity by FindViewbyId
 
 
 ## Activity 3-
- create intent and pass RecognizerIntent.ACTION_RECOGNIZE_SPEECH    to it
+Now here comes the important part first which will initialize the SpeecRecognizer object and then create the intent for recognizing the speech.
  
+ As you can see we have added some extras let me explain what are they.
+ The constant  **ACTION_RECOGNIZE_SPEECH** starts an activity that will prompt the user for speech and send it through a speech recognizer.
+ 
+**EXTRA_LANGUAGE_MODEL:** Informs the recognizer which speech model to prefer when performing  ** ACTION_RECOGNIZE_SPEECH.**
+
+**LANGUAGE_MODEL_FREE_FORM:** Use a language model based on free-form speech recognition.
+**EXTRA_LANGUAGE:** optional IETF language tag (as defined by BCP 47), for example, “en-US”.
+
+Now we will set a speechRecognitionListener to our speechRecognizer object using the setRecognitionListener() method.
+
+You can see after setting the listener we get several methods to implement. We will go the onResults method and add the following code
+
+
  
 ## References
 
