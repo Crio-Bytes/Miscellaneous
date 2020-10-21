@@ -72,5 +72,4 @@ link view  in mainactivity by FindViewbyId
 
   [Android Basics by Google] https://www.udacity.com/course/android-basics-nanodegree-by-google--nd80
   
-  
-- ## [How to create speech to text app](https://medium.com/voice-tech-podcast/android-speech-to-text-tutorial-8f6fa71606ac)
+   [How to create speech to text app](https://medium.com/voice-tech-podcast/android-speech-to-text-tutorial-8f6fa71606ac)
