@@ -15,6 +15,10 @@ For this micro-task, you should have a basic knowledge of:
 
 These libraries form the basis of any Machine Learnig Project or Algorithm.
 
+Along with this, we will be using **Jupyter Notebooks** as our working environment. So make sure you have it configured for your pc or laptop. You can have a look at the installation instructions [here](https://test-jupyter.readthedocs.io/en/latest/install.html).
+
+Now, you are ready for this exciting micro-byte!
+
 ## Activities
 
 **Note:** Remember to go through the additional material provided in the activities to have a more thorough understanding of the underlying concepts.
