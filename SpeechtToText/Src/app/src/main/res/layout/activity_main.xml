@@ -7,31 +7,14 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:gravity="center"
-        android:id="@+id/textView"
-        android:layout_width="412dp"
-        android:layout_height="158dp"
-        android:text="Hello World!"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.377"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.193" />
+
+   //add TextView with proper id and position at center
+         />
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="116dp"
-        android:layout_height="63dp"
-        android:layout_marginBottom="268dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        android:contentDescription="TODO" />
+
+//add Image button and set background image
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
