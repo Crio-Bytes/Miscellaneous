@@ -1,5 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Introduction
@@ -26,6 +26,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/archithdwij"><img src="https://avatars1.githubusercontent.com/u/30730368?v=4" width="100px;" alt=""/><br /><sub><b>Archithdwij</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Miscellaneous/pulls?q=is%3Apr+reviewed-by%3Aarchithdwij" title="Reviewed Pull Requests">👀</a> <a href="#eventOrganizing-archithdwij" title="Event Organizing">📋</a></td>
+    <td align="center"><a href="https://github.com/Aditya-Gupta1"><img src="https://avatars3.githubusercontent.com/u/44528202?v=4" width="100px;" alt=""/><br /><sub><b>Aditya Gupta</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=Aditya-Gupta1" title="Code">💻</a> <a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=Aditya-Gupta1" title="Documentation">📖</a> <a href="#content-Aditya-Gupta1" title="Content">🖋</a> <a href="#ideas-Aditya-Gupta1" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 

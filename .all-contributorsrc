@@ -91,6 +91,18 @@
         "review",
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "Aditya-Gupta1",
+      "name": "Aditya Gupta",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/44528202?v=4",
+      "profile": "https://github.com/Aditya-Gupta1",
+      "contributions": [
+        "code",
+        "doc",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
