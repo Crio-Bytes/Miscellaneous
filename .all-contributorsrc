@@ -115,6 +115,18 @@
         "doc",
         "ideas"
       ]
+    },
+    {
+      "login": "Nitesh-thapliyal",
+      "name": "Nitesh Thapliyal",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/53345517?v=4",
+      "profile": "https://www.linkedin.com/in/nitesh-thapliyal-4403a1135",
+      "contributions": [
+        "code",
+        "content",
+        "ideas",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
