@@ -127,6 +127,10 @@ For example
 
         //assign imagebutton as which you give id for Imagebutton
 
+*For example textview*
+```
+ textView= findViewById(R.id.textView);
+ ```
 
 
 ![alt text](https://github.com/Nikhilananddev/Miscellaneous/blob/Nikhilanand/SpeechToText/add/SpeechtToText/Images/assignimagebutton.png)
