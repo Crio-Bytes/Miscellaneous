@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 Big data is a huge amount of data and is a problem that everyone is facing in IT industry.Every Seconds huge amount of data is uploaded but their is no such storage that can store this much amount of data.To solve this problem of storing this much amount of data a concept came know as Distributed File Storage(DFS).
 What DFS does is, it split the huge data into chunks and then disribute that splitted data into the different servers.
@@ -8,7 +8,7 @@ The software that work on the Concept of DFS is **Hadoop**.
 
 In this MicroByte we will be creating a Namenode(Masternode), Datanode(Slavenode) and Clientnode.We will connect Datanode and Client to the Master. When all the nodes are connected to each other they form a cluster kown as Hadoop Cluster and we will perform task on the hadoop cluster.
 
-#Prerequisites
+# Prerequisites
 
 It is preferred that you are aware of Linux basics and AWS.
 
