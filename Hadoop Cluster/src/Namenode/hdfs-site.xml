@@ -1,0 +1,6 @@
+<configuration>
+<property>
+<name>dfs.name.dir</name>
+<value>/master</value>
+</property>
+</configuration>
