@@ -3,14 +3,14 @@ Interface is a shared boundary across which two or more separate components of a
 hardwares, peripheral devices, humans or a combination of these.  
 In Java, interface refers to an abstract type that is used to specify a behaviour that classes must implement. It serves as a blueprint of a class having static constants
 and abstract methods. Didn't get it? Let's make things simpler for you with the help of an example:  
-Do you remember the corrugated cardboard sheet which is used for preparing cardboard boxes?  
+*Do you remember the corrugated cardboard sheet which is used for preparing cardboard boxes?*  
 ![Corrugated Cardboard Sheet](images/corrugated-cardboard-sheet.jpg)  
-The cardboard sheet manufacturing company prepares sheets of different densities and supplies them in some standard sizes to other companies. The boxes of pizza you 
+*The cardboard sheet manufacturing company prepares sheets of different densities and supplies them in some standard sizes to other companies. The boxes of pizza you 
 received, box of shoes you bought, the packaging of parcel handed over to you by the delivery guy and the carton of your new AC or fridge, all of them are different 
 yet they are made of more or less material of similar properties. All these companies have made cuts, folds, prints etc. on that cardboard sheet according their 
 requirements so as to obtain cardboard boxes of desired shapes and sizes. Consider interfaces as those cardboard sheets already having some properties(levels of
 corrugation, density, thickness etc.), which are used by the companies to make packaging boxes of different types. But packaging boxes still possess the original
-characteristics of that cardboard sheet and are also having their own characteristics like prints, shape, size, brand logo etc.  
+characteristics of that cardboard sheet and are also having their own characteristics like prints, shape, size, brand logo etc.*  
 ![Cardboard boxes types](images/cardboard-box-types.jpg)  
 I hope things are quite clear now, Let's move on to the interesting part of this microbyte- Activities. But before that, please make sure you fulfil all the pre-requisites mentioned.
 
@@ -122,7 +122,7 @@ and have used them in the methods of the child classes. You have learnt these co
 ## Bonus Activity : Diamond Problem and Multiple Inheritance
 Are you aware of Multiple Inheritance concept?  
 When a class inherits the properties of more than one parent class, such type of inheritance is called multiple inheritance. It's just the opposite of **Hierarchical Intheritance**(one parent, multiple children) that you have just seen. You can perform **Multiple Inheritance** in C++ but it is not allowed in Java because of the **Diamond Problem** which creates ambiguities. Though multiple inheritance is not permitted in Java for classes but it is allowed in case of interfaces. Check this for understanding the Diamond Problem in Java:  
-[https://www.javatpoint.com/what-is-diamond-problem-in-java](https://www.javatpoint.com/what-is-diamond-problem-in-java)
+[https://www.javatpoint.com/what-is-diamond-problem-in-java](https://www.javatpoint.com/what-is-diamond-problem-in-java)  
 ***Note*** :
 * *When a class inherits an interface we use keyword **implements** but when an interface inherits another interface we use keyword **extends**.*  
 ### Challenge :
