@@ -6,7 +6,12 @@ The software that work on the Concept of DFS is **Hadoop**.
 
 ![Hadoop](https://cdn.slidesharecdn.com/ss_thumbnails/hadoop-191014141815-thumbnail-4.jpg?cb=1571064784)
 
-In this MicroByte we will be creating a Namenode(Masternode), Datanode(Slavenode) and Clientnode.We will connect Datanode and Client to the Master. When all the nodes are connected to each other they form a cluster kown as Hadoop Cluster and we will perform task on the hadoop cluster.
+- In this MicroByte we will create Masternode, Datanode,Clientnode and will upload and read data in hadoop.
+- we will share the storage of Datanode to the Masternode.
+- We will increase the storage of the masternode so that we can store huge amount of data to it and master will split the data and distributes the splitted data into system or datanodes connected to it.
+- By the end of the Actitivites you will see the storage of masternode will increase and you can store data to it.
+
+**Use case:** You can store Huge amount of data in Hadoop as it will split the data and ditribute it to different Datanodes.
 
 # Prerequisites
 
@@ -26,7 +31,7 @@ To install hadoop-1.2.1-1.x86_64.rpm :
 
 > Refer to `Images/Prerequisites/hadoop_install.png` folder.
 
-### Activity 1: Configure Namenode(masternode)
+### Activity 1: Create Namenode(masternode)
 Launch an intance in aws or open linux terminal.
 
 Download and Install Hadoop and jdk file in your terminal as shown in the Prerequisites of this MicroByte.👆
@@ -72,7 +77,7 @@ Now follow the steps to configure hdfs-site.xml file :
 
 Hope you have configured the hdfs-site.xml file successfully.
 
-**Activity 1 Task**
+**Activity 1 Task:**
 
 Now you have configured the hdfs-sit.xml file, in the same way you have to configure the core-site.xml file.
 
@@ -110,11 +115,11 @@ To do that use command `jps` if you see Namenode written after you use command j
 
 Now we have successfully starte our Masternode/Namenode.
 
-**Activity 2 Task**
+**Activity 2 Task:**
 
 Try to find out `why we need to format masternode/namenode directory only for the one time?`
 
-### Activity 3: Configure Slavenode(Datanode)
+### Activity 3: Create Datanode(Slavenode)
 
 Launch one more intance in aws or open one more linux os.
 
@@ -122,7 +127,7 @@ Download and Insatll Hadoop and jdk file in your terminal as shown in the Prereq
 
 After installing files we will create a directory in terminal.
 
-**Activity 3 Task **
+**Activity 3 Task:**
 
 Configure the files in the same way like we have done in the Activity 1.
 
@@ -138,7 +143,7 @@ Configure the files in the same way like we have done in the Activity 1.
 
 > Refer to `Images/Activities/Activity 3/Activity 3b.png`
 
-### Activity 4: Start Slavenode(Datanode) service
+### Activity 4: Start Datanode(Slavenode) service
 
 **Note** We dont need to format the directory in the Datanode
 
@@ -152,7 +157,9 @@ To do that use command `jps` if you see Datanode written after you use command j
 
 > Refer to `Images/Activities/Activity 3/Activity 3d.png`
 
-**Activity 4 Task**
+**Note:** After you start the Datanode, the Storage of Datenode will be shared with the Masternode.
+
+**Activity 4 Task:**
 
 Create 2 or more Datanodes.
 
@@ -164,6 +171,8 @@ To Check we need to use command `hadoop dfsadmin -report`
 
 In my case only 1 Datanode is conaected as i have created only 1 Datanode but `you need to connect 2 or more Datanodes`.
 
+Here one more thing you can see is the storage shared by the Datanoe to the Masternode.
+
 ### Activity 6: Create Clientnode
 
 Launch one more intance in aws or open one more linux os.
@@ -172,9 +181,13 @@ Download and Insatll Hadoop and jdk file in your terminal as shown in the Prereq
 
 Now we only need to configure is core-site.xml file.We dont need to configure hdfs-site.xml file.
 
-**Activity 6 Task**
+**Activity 6 Task:**
 
 Connfigure core-site.xml like you have configured in `Activity 3`.
+
+**Note:** The storage of Client is not shared with the Masternode as we did not start service in the Clientnode.
+
+The use of Clientnode is only to upload and read data.
 
  Congratulations🎉 we have successfully created a hadoop Cluster.
 
@@ -198,9 +211,18 @@ There are two ways To check file is uploded or not
 
 Webui of Hadoop cluster will open form there you can check everything about Hadoop Cluster.
 
+This is how webui of Hadoop Cluster looks like.
 ![](Images/webui.png)
 
-This is how webui of Hadoop Cluster looks like.
+> To make these Activities fun make your system as Master, you can also make datanode alongside masternode.
+
+> Ask your friends to create the Datanode in their system and then connect your datanode and ask your friends to connect their datanode to the masternode of yours.
+
+> Ask one of your friend to create Clientnode and ask him/her to upload files
+
+> Now you can see the storage capacity of your master will be huge as all datanodes have shared their storage to you.
+
+> Now you can store Huge amount of data and whenever you will start the hadoop cluster you can see your data present in hadoop.
 
  ## SUMMARY
  
