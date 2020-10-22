@@ -21,7 +21,7 @@ After you have done this Activities you can store huge amount of data and can an
 
 # Prerequisites
 
-It is preferred that you are aware of Linux basics and AWS.
+It is preferred that you are aware of [Linux](https://learn.crio.do/home/me/ME_LINUX1) basics and [AWS](https://learn.crio.do/home/me/ME_AWS_CLOUD_DEPLOY).
 
 > Thess files must be downloaded in your system:
  
@@ -44,7 +44,7 @@ Download and install Hadoop and jdk file in your terminal as shown in the Prereq
 
 After installing files we will create a directory in terminal.
 
-> syntax mkdir /directory name
+> syntax mkdir /directory-name
 
 Now we will go inside hadoop directory.
 
@@ -61,7 +61,7 @@ You will find two main files:
 
 **Now we will configure hdfs-site.xml file:
 
-Open hdfs-site.xml using edior.
+Open hdfs-site.xml using editor.
 
 You can use vi or vim editor in Linux but i will recommend you to use vi editor.
 
@@ -75,7 +75,7 @@ Now follow the steps to configure hdfs-site.xml file :
 
 1. open property tag i.e <property>
 2. open name tag and the write `dfs.name.dir`and then close name tag.
-3. open value tag an then give the /directory name that you have created above 👆 and then close value tag.
+3. open value tag and then give the /directory-name that you have created above 👆 and then close value tag.
 4. Close the property tag.
 5. Save the file
 
@@ -99,7 +99,7 @@ Hope you have successfully configured core-sit.xml file.
 
 ### Activity 2: start Namenode service
 
-we have configured our `hdfs-site.xml` and `core-site.xml` file.
+We have configured our `hdfs-site.xml` and `core-site.xml` file.
 
 Now we will format the directory that we have created in Activity 1.
 
@@ -119,7 +119,7 @@ To do that use command `jps` if you see Namenode written after you use command j
  
 > Refer to `Images/Activities/Activity 2/Activity 2c.png`
 
-Now we have successfully starte our Masternode/Namenode.
+Now we have successfully started our Masternode/Namenode.
 
 **Activity 2 Task:**
 
@@ -153,7 +153,7 @@ Configure the files in the same way like we have done in the Activity 1.
 
 **Note** We dont need to format the directory in the Datanode
 
-Start the service like we have done in `Activity 2`, only change that we have to do is istead of using namenode in comamnd, we have to use datanode.
+Start the service like we have done in `Activity 2`, only change that we need to do is instead of using namenode in comamnd, we have to use datanode.
 
 > Refer to `Images/Activities/Activity 3/Activity 3c.png`
 
@@ -175,15 +175,15 @@ To Check we need to use command `hadoop dfsadmin -report`
 
 ![](Images/dfsadmin.png)
 
-In my case only 1 Datanode is conaected as i have created only 1 Datanode but `you need to connect 2 or more Datanodes`.
+In my case only 1 Datanode is connected as i have created only 1 Datanode but `you need to connect 2 or more Datanodes`.
 
-Here one more thing you can see is the storage shared by the Datanoe to the Masternode.
+Here one more thing you can see is the storage shared by the Datanode to the Masternode.
 
 ### Activity 6: Create Clientnode
 
-Launch one more intance in aws or open one more linux os.
+Launch one more instance in aws or open one more linux os.
 
-Download and Insatll Hadoop and jdk file in your terminal as shown in the Prerequisites of this MicroByte.👆
+Download and install Hadoop and jdk file in your terminal as shown in the Prerequisites of this MicroByte.👆
 
 Now we only need to configure is core-site.xml file.We dont need to configure hdfs-site.xml file.
 
@@ -215,7 +215,7 @@ There are two ways To check file is uploded or not
 1. using command `hadoop fs -ls /` in nodes
 2. Go to your browser and in new tab enter your `Masternode Ip with port number 50070` 
 
-Webui of Hadoop cluster will open form there you can check everything about Hadoop Cluster.
+Webui of Hadoop cluster will open from there you can check everything about Hadoop Cluster.
 
 This is how webui of Hadoop Cluster looks like.
 ![](Images/webui.png)
@@ -232,7 +232,7 @@ This is how webui of Hadoop Cluster looks like.
 
  ## SUMMARY
  
- We have creted Datanode,Namenode and client node . we have uploaded data using clientnode and check file is uploaded or not using terminal and webui.
+ We have creted Datanode,Namenode and clientnode. we have uploaded data using clientnode and check file is uploaded or not using terminal and WebUi.
 
  ## REFERENCES
  
