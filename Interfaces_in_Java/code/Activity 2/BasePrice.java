@@ -2,8 +2,8 @@
 public interface BasePrice {
   /* Hint #1:
    * Declare two constants here of float type: baseShirtPrice and baseBagPrice
-   * Initialize baseShirtPrice with value 1500.0f
-   * Initialize baseBagPrice with value 2000.0f
+   * Initialize baseShirtPrice with value 1500.0
+   * Initialize baseBagPrice with value 2000.0
    */
 	
 	/* Hint #2:
