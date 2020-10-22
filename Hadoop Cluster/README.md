@@ -29,7 +29,7 @@ To install hadoop-1.2.1-1.x86_64.rpm :
 ### Activity 1: Configure Namenode(masternode)
 Launch an intance in aws or open linux terminal.
 
-Download and Insatll Hadoop and jdk file in your terminal as shown in the Prerequisites of this MicroByte.👆
+Download and Install Hadoop and jdk file in your terminal as shown in the Prerequisites of this MicroByte.👆
 
 After installing files we will create a directory in terminal.
 
