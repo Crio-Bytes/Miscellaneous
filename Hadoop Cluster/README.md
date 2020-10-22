@@ -16,7 +16,7 @@ It is preferred that you are aware of Linux basics and AWS.
  
 1. [jdk-8u171-linux-x64.rpm](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 
-2. [hadoop-1.2.1-1.x86_64.rpm] (https://archive.apache.org/dist/hadoop/core/hadoop-1.2.1/)
+2. [hadoop-1.2.1-1.x86_64.rpm](https://archive.apache.org/dist/hadoop/core/hadoop-1.2.1/)
  
 To install jdk-8u171-linux-x64.rpm :
 
