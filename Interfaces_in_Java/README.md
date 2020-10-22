@@ -17,17 +17,17 @@ mentioned.
 # Pre-requisites
  * JDK 1.6 or above must be installed
  * Any Java IDE(NetBeans, IntelliJ, Eclipse etc.) must be installed, I prefer Eclipse so if you want you can download it from here:  
- ----------------------------download link--------------------------------------
+ (https://www.eclipse.org/downloads/)[https://www.eclipse.org/downloads/]
  * Writing and compiling java code in Eclipse (optional)
  * It would be better, if you have a little bit knowledge of these concepts in Java (You can refer the resources provided in case you don't know about these) -
-   * Classes and Objects  --------link----------
-   * Inheritance  --------link----------
-   * Abstraction  --------link----------
+   * (Classes and Objects)[https://www.w3schools.com/java/java_classes.asp]
+   * (Inheritance)[https://www.guru99.com/java-class-inheritance.html]
+   * (Abstraction)[https://stackify.com/oop-concept-abstraction/]
    
 # Activities
  ## Activity-1 : Understanding Abstract Methods
  Are you familiar with methods in Java? If not, check this out before moving further:  
- -----------------------link----------------------------
+ (https://www.w3schools.com/java/java_methods.asp)[https://www.w3schools.com/java/java_methods.asp]
  ### Abstract Method :
  A method without body (implementation) is called an abstract method. In Java, abstract method looks like-  
  ```Java
@@ -53,8 +53,8 @@ Congratulations!! if you have made it so far, you have learnt-
 * The concept of ***Method Overriding*** by providing implementation for abstract methods while inheriting them in another class.
 * about ***Abstract classes***. Class **Area** that you defined with keyword abstract is an abstract class. An abstract class can have abstract as well as regular 
 methods. In fact, it is not necessary to have an abstract method inside such class. We cannot create an object of such class but we can inherit it. You can further
-read about abstract classes from here:
----------------------------link for abstract class ----------------------------------------  
+read about abstract classes from here:  
+(https://beginnersbook.com/2013/05/java-abstract-class-method/)[https://beginnersbook.com/2013/05/java-abstract-class-method/]  
 
  ## Activity-2 : Creating Interfaces in Java
  An interface is a collection of abstract methods (about which we have learnt in the previous activity) and static constants. The syntax of creating an interface is
@@ -80,7 +80,58 @@ the interface. We can also declare data members in an interface which are public
 2) Refer the code in this file; declare two constant fields of **float** type and intialize them with the values mentioned in the comments.
 ----------------link for code file-----------------------------
 3) Create three abstract methods in the interface- **calculateShirtPrice()**, **calculateBagPrice()** and **calculateBill()**. For the description of arguments and
-return type of the methods, refer the comments in the above code file.
-### Takeaways :
+return type of the methods, refer the comments in the above code file.  
 
-    
+### Takeaways :
+I hope you're enjoying this microbyte. Some of the key takeaways from this activity are:
+* Interface structure and syntax
+* How are interfaces different from abstract classes?
+
+## Activity-3 : Interfaces and Code Reusability
+Well, if you're thinking, what is the use of the interface we have created in the previous activity? Then, let me tell you we are going to create two classes which will
+be implementing/inheriting the interface **BasePrice**. Inheritance of interfaces is quite similar to the inheritance of classes but here we use keyword **implements**.
+***Note*** :
+* *when a class implements/inherits an interface, **it must override all the abstract methods** of the interface*
+
+### Task :
+1) Create a new public class **SellerA** (in the same package where you creted the **BasePrice** interface) which must implement/inherit the interface **BasePrice**
+2) Similarly, create another public class **SellerB**(in the same package) which also implements the interface **BasePrice**
+3) Refer these code files (SellerA.java and SellerB.java). In both the classes **SellerA** and **SellerB**, you have to implement those three unimplemented(abstract)
+methods of the **BasePrice** interface i.e. **calculateShirtPrice()**, **calculateBagPrice()** and **calculateBill()**. Use the hints provided in the comments of these 
+code files to implement these methods.  
+-------------------------------------link to code files-------------------------------------------------
+4) And the last step is to create another public class **MainClass** which would consist of the **main()** method. Your task is to create objects of the previous classes you've made and call the methods you have created using those objects. Refer this code file for the hints and partially completed **main()** method.  
+-------------------------------------link to code file-------------------------------------------------
+5) You're almost there. Save all your code files and run the **MainClass.java** file. I have provided results for your reference:  
+-------------------------------------link to output image-------------------------------------------------
+
+At this point, you may get a question that why we are creating class and overriding the interface methods to provide them a behaviour? Can't we just declare those methods within the class then what is the point of using interface here?  
+This is because:  
+- Interfaces help us to achieve 100% **abstraction**,
+- They promote **code reusability** and
+- They are the real driver of **Polymorphism** in Java  
+If you want to have a better understanding regarding the importance and use of interfaces in Java, just go through this article:  
+[https://www.java67.com/2014/02/what-is-actual-use-of-interface-in-java.html#:~:text=Interface%20is%20great%20to%20declare,as%20to%20to%20process%20events.](https://www.java67.com/2014/02/what-is-actual-use-of-interface-in-java.html#:~:text=Interface%20is%20great%20to%20declare,as%20to%20to%20process%20events.)
+### Takeaways :  
+Congratulations!! you did a great job. You have successfully created an interface with constants and abstract methods. You have also provided two different implementations for those abstract methods by inheriting the interface and overriding those methods in the child classes. You have also defined two static constants 
+and have used them in the methods of the child classes. You have learnt these concepts so far:
+* Inheritance of interface (you have practically implemented **hierarchical inheritance** in Java)
+* Overriding of interface's abstract methods (you've got a practical example of **Polymorphism** concept :D )  
+
+## Bonus Activity : Diamond Problem and Multiple Inheritance
+Are you aware of Multiple Inheritance concept?  
+When a class inherits the properties of more than one parent class, such type of inheritance is called multiple inheritance. It's just the opposite of **Hierarchical Intheritance**(one parent, multiple children) that you have just seen. You can perform **Multiple Inheritance** in C++ but it is not allowed in Java because of the **Diamond Problem** which creates ambiguities. Though multiple inheritance is not permitted in Java for classes but it is allowed in case of interfaces. Check this for understanding the Diamond Problem in Java:  
+(https://www.javatpoint.com/what-is-diamond-problem-in-java)[https://www.javatpoint.com/what-is-diamond-problem-in-java] 
+***Note*** :
+* *When a class inherits an interface we use keyword **implements** but when an interface inherits another interface we use keyword **extends**.*  
+### Challenge :
+Now it's your time to show some skills. You have to create two interfaces **LandAnimal** and **SeaAnimal** whose parent interface would be **Animal**. These two interfaces would be further inherited by a class **Frog**. Inheritance hirerarchy is shown below:  
+-----------------------------image for inheritance hierarchy----------------------------------------  
+Now for the implementation part, you're free to do anything. You can experiment with abstract methods by choosing arguments and return type of your choice. And finally provide implementation for the abstract methods in the **Frog** class. Go ahead.  
+Happy Coding!!  
+
+# References
+* Abstract Methods: [https://beginnersbook.com/2014/01/abstract-method-with-examples-in-java/](https://beginnersbook.com/2014/01/abstract-method-with-examples-in-java/)
+* Definition: [https://en.wikipedia.org/wiki/Interface_(Java)](https://en.wikipedia.org/wiki/Interface_(Java))
+* [https://www.javatpoint.com/interface-in-java#interfaceex](https://www.javatpoint.com/interface-in-java#interfaceex)
+* [https://www.java67.com/2014/02/what-is-actual-use-of-interface-in-java.html#:~:text=Interface%20is%20great%20to%20declare,as%20to%20to%20process%20events.](https://www.java67.com/2014/02/what-is-actual-use-of-interface-in-java.html#:~:text=Interface%20is%20great%20to%20declare,as%20to%20to%20process%20events.)
