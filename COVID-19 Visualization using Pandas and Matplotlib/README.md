@@ -121,8 +121,10 @@ The ouput on executing plt.show() should be something like
 <br>
 
 <details><summary>HINT</summary>
-<p>         
+<p>  
+            
 Try sorting the data frame according to dates. Also try using the timedelta of [datetime](https://docs.python.org/3/library/datetime.html) python library. Then try arranging all in descending order. Finally plot the [pie chart](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.pie.html).
+
 </p>
 </details>
 
