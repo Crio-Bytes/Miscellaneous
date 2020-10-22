@@ -1,8 +1,10 @@
 # Introduction
 
-Big data is a huge amount of data and is a problem that everyone is facing in IT industry.Every Seconds huge amount of data is uploaded but their is no such storage that can store this much amount of data.To solve this problem of storing this much amount of data a concept came know as Distributed File Storage(DFS).
+Big data is a huge amount of data(data can be anything like images, videos, files etc.) and it is a problem that everyone is facing in IT industry.Every Seconds huge amount of data is uploaded but their is no such storage that can store this much amount of data.To solve this problem of storing this much amount of data a concept came know as Distributed File Storage(DFS).
 What DFS does is, it split the huge data into chunks and then disribute that splitted data into the different servers.
 The software that work on the Concept of DFS is **Hadoop**.
+
+Big firms like Facebook uses Hadoop as in every seconds huge amount of data i.e every 60 seconds 317,000 status updates, 400 new users, 147,000 photos uploaded, and 54,000 shared links in Facebook so to store this huge amount data Facebook uses Hadoop.
 
 ![Hadoop](https://cdn.slidesharecdn.com/ss_thumbnails/hadoop-191014141815-thumbnail-4.jpg?cb=1571064784)
 
