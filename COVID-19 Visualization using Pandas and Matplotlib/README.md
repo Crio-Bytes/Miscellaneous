@@ -8,7 +8,7 @@ In this microbyte we will use [pandas](https://pandas.pydata.org/) and [matplotl
 
 # Prerequisites
 
-For this micro-task, you should have a basic knowledge of:
+For this microbyte, you should have a basic knowledge of:
 
 - Python
 - [Pandas](https://pandas.pydata.org/) (recommeded)
@@ -132,3 +132,8 @@ Try sorting the data frame according to dates. Also try using the timedelta of [
 <br>
 
 ## Dataset GitHub repo : https://github.com/datasets/covid-19
+<br>
+
+>## P.S. : 
+> - I have followed certain names for all variables(to make the code relatable). You are free to choose any variable names.
+> - Kindly work through my methods first to get an idea of the microbyte. Then you may and I encourage you to use your own methods to come up with your own brilliant solutions.
