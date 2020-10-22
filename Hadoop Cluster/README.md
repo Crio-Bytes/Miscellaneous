@@ -9,9 +9,13 @@ The software that work on the Concept of DFS is **Hadoop**.
 - In this MicroByte we will create Masternode, Datanode,Clientnode and will upload and read data in hadoop.
 - we will share the storage of Datanode to the Masternode.
 - We will increase the storage of the masternode so that we can store huge amount of data to it and master will split the data and distributes the splitted data into system or datanodes connected to it.
-- By the end of the Actitivites you will see the storage of masternode will increase and you can store data to it.
+- By the end of the Activites you will see the storage of masternode will increase and you can store data to it.
 
-**Use case:** You can store Huge amount of data in Hadoop as it will split the data and ditribute it to different Datanodes.
+**Use case:** You can store Huge amount of data in Hadoop as it will split the data and distribute it to different Datanodes.
+
+**Application of Hadoop:** It is best suited for Big data analysis as it can store huge amount of data(Big data) and process the big data and also for developing data processing applications in distributed computing enviroment.
+
+After you have done this Activities you can store huge amount of data and can analyze that data in Hadoop.
 
 # Prerequisites
 
@@ -32,9 +36,9 @@ To install hadoop-1.2.1-1.x86_64.rpm :
 > Refer to `Images/Prerequisites/hadoop_install.png` folder.
 
 ### Activity 1: Create Namenode(masternode)
-Launch an intance in aws or open linux terminal.
+Launch an instance in aws or open linux terminal.
 
-Download and Install Hadoop and jdk file in your terminal as shown in the Prerequisites of this MicroByte.👆
+Download and install Hadoop and jdk file in your terminal as shown in the Prerequisites of this MicroByte.👆
 
 After installing files we will create a directory in terminal.
 
@@ -121,9 +125,9 @@ Try to find out `why we need to format masternode/namenode directory only for th
 
 ### Activity 3: Create Datanode(Slavenode)
 
-Launch one more intance in aws or open one more linux os.
+Launch one more instance in aws or open one more linux os.
 
-Download and Insatll Hadoop and jdk file in your terminal as shown in the Prerequisites of this MicroByte.👆
+Download and install Hadoop and jdk file in your terminal as shown in the Prerequisites of this MicroByte.👆
 
 After installing files we will create a directory in terminal.
 
