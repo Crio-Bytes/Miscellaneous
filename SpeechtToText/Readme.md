@@ -117,7 +117,7 @@ create id for TextView and ImageButton .
 * Name TextView as textView and ImageButton as  imageButton *
 
 
-* Example  *
+* Example  
 ```
 
 android:id="@+id/<name_of_id>"
