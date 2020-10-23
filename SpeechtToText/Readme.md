@@ -42,7 +42,7 @@ For more details    [Link ](   https://www.geeksforgeeks.org/guide-to-install-an
 
 
 ## Activity 1-
- *First things first: Start Android Studio. You should see a screen that looks similar to the one shown here. Now you’re ready to start cooking with Android.*
+ * First things first: Start Android Studio. You should see a screen that looks similar to the one shown here. Now you’re ready to start cooking with Android.*
  
  Follow these steps to create your first Android application project:
  
@@ -55,6 +55,7 @@ For more details    [Link ](   https://www.geeksforgeeks.org/guide-to-install-an
 
 *Enter Hello Android as the application name.*
 The application name is the name of the application as it pertains to Android. When the application is installed on the emulator or physical device, this name appears in the application launcher.
+
 
 ![alt text](https://github.com/Nikhilananddev/Miscellaneous/blob/Nikhilanand/SpeechToText/add/SpeechtToText/Images/473299.image1.jpg)
 
@@ -71,6 +72,7 @@ The default location will probably be fine. Click Next.
 
 
 *In the Create Activity box, choose Blank Activity and click Next.*
+
 ![alt text](https://github.com/Nikhilananddev/Miscellaneous/blob/Nikhilanand/SpeechToText/add/SpeechtToText/Images/473300.image2.jpg)
 
 
@@ -110,11 +112,16 @@ The Layout name is the name of the file that will contain the layout of your act
 
 ## Activity 3-
 
-create id for TextView and imageview .
+create id for TextView and ImageButton .
 
-For example 
+* Name TextView as textView and ImageButton as  imageButton *
+
+
+* Example  *
 ```
- android:id="@+id/ android:id="@+id/textView""
+
+android:id="@+id/<name_of_id>"
+
  
  
 ```
