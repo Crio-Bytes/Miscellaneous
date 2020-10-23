@@ -1,14 +1,12 @@
 # Introduction 
-In Java, interface refers to an abstract type that is used to specify a behaviour that classes must implement. It serves as a blueprint of a class having static constants and abstract methods. Didn't get it? Let's make things simpler for you with the help of an example:
-:-------------------------:|:-------------------------:
-![Corrugated Cardboard Sheet](images/corrugated-cardboard-sheet.jpg) | ![Cardboard boxes types](images/cardboard-box-types.jpg) 
+In Java, interface refers to an abstract type that is used to specify a behaviour that classes must implement. It serves as a blueprint of a class having static constants and abstract methods. Didn't get it? Let's make things simpler for you with the help of an example:  
+![Corrugated Cardboard Sheet](images/corrugated-cardboard-sheet.jpg) | ![Cardboard boxes types](images/cardboard-box-types.jpg)  
 *The corrugated cardboard sheet manufacturing company prepares sheets of different densities and supplies them in some standard sizes to other companies. The boxes of pizza you received, box of shoes you bought, the packaging of parcel handed over to you by the delivery guy and the carton of your new AC or fridge, all of them are different yet they are made of more or less material of similar properties. All these companies have made cuts, folds, prints etc. on that cardboard sheet according their requirements so as to obtain cardboard boxes of desired shapes and sizes. Consider interfaces as those cardboard sheets already having some properties(density, thickness etc.), which are used to make packaging boxes of different types. But packaging boxes still possess the original characteristics of that cardboard sheet and are also having their own characteristics like prints, shape, size, brand logo etc.*   
 
 # Pre-requisites
  * JDK 1.6 or above must be installed
  * Any Java IDE(NetBeans, IntelliJ, Eclipse etc.) must be installed, I prefer Eclipse so if you want you can download it from here:  
    [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/)
- * Writing and compiling java code in Eclipse (optional)
  * It would be better, if you have a little bit knowledge of these concepts in Java (You can refer the resources provided in case you don't know about these) -
    * [Classes and Objects](https://www.w3schools.com/java/java_classes.asp)
    * [Inheritance](https://www.guru99.com/java-class-inheritance.html)
