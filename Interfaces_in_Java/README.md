@@ -29,10 +29,10 @@ In Java, interface refers to an abstract type that is used to specify a behaviou
 ### Task :
   1) You have to create a class **Area** with 'abstract' keyword and inside that class define two methods: **calculateArea()** and **display()**. Refer this code 
   and utilize the hints provided in the comments there:  
-  [Area.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/code/Activity%201/Area.java)
+  [Area.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/src/Activity%201/Area.java)
   2) Next, you have to create another class(in the same package where you created class **Area**) **RectangleArea** which inherits/extends the class **Area**. Within
   this class, implement the abstract method **calculateArea()** and complete the **main()** method according to the hints provided in comments of this file-  
-  [RectangleArea.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/code/Activity%201/RectangleArea.java)  
+  [RectangleArea.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/src/Activity%201/RectangleArea.java)  
   3) After writing all the code, save and run the code in java file having class **RectangleArea** i.e. **RectangleArea.java**. And match your output with this:
       ![Activity1 output](images/Activity1_output.png)
 
@@ -66,7 +66,7 @@ the interface. We can also declare data members in an interface which are public
 ### Task :
 1) Create a new interface file in your IDE. Create a public interface **BasePrice**
 2) Refer the code in the file mentioned below; declare two constant fields of **float** type and intialize them with the values mentioned in the comments.  
-   [BasePrice.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/code/Activity%202/BasePrice.java)
+   [BasePrice.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/src/Activity%202/BasePrice.java)
 3) Create three abstract methods in the interface- **calculateShirtPrice()**, **calculateBagPrice()** and **calculateBill()**. For the description of arguments and
 return type of the methods, refer the comments in the above code file.  
 
@@ -87,10 +87,10 @@ be implementing/inheriting the interface **BasePrice**. Inheritance of interface
 3) Refer these code files (SellerA.java and SellerB.java). In both the classes **SellerA** and **SellerB**, you have to implement those three unimplemented(abstract)
 methods of the **BasePrice** interface i.e. **calculateShirtPrice()**, **calculateBagPrice()** and **calculateBill()**. Use the hints provided in the comments of these 
 code files to implement these methods.  
-  * [SellerA.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/code/Activity%203/SellerA.java)  
-  * [SellerB.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/code/Activity%203/SellerB.java)
+  * [SellerA.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/src/Activity%203/SellerA.java)  
+  * [SellerB.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/src/Activity%203/SellerB.java)
 4) And the last step is to create another public class **MainClass** which would consist of the **main()** method. Your task is to create objects of the previous classes you've made and call the methods you have created using those objects. Refer this code file for the hints and partially completed **main()** method:  
-  [MainClass.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/code/Activity%203/MainClass.java)
+  [MainClass.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/src/Activity%203/MainClass.java)
 5) You're almost there. Save all your code files and run the **MainClass.java** file. I have provided results for your reference:  
   ![Activity3 output](images/Activity3_output.png)
 
