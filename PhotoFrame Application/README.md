@@ -29,7 +29,7 @@ When opening the android studio, create a project and you can do follow these st
 
 # Activities
 
-## Activity 1 : Improving layout in activity_main.xml
+## Activity 1 : Debugging and coding in activity_main.xml
 ### Note that you need to write your own code in place of TODO comments.
 
 1. Set the value of alpha of the imageview so that the image should not be visible in place of TODO comments.
@@ -51,7 +51,7 @@ Make sure that there is no hardcore strings present in the textview.
 Reference : You can go through this link and search for your query via Ctrl+F and search :  https://rb.gy/l3an7c
 
 
-## Activity 2 : Fix Bugs in the MainActivity.java
+## Activity 2 : Coding Phase in the MainActivity.java
 ### Again Note that you need to write your own code in place of TODO comments.
 
 ![Screenshot (226)](https://user-images.githubusercontent.com/65127291/96958119-2a6c3680-151a-11eb-98f6-ef9ac6999683.png)
