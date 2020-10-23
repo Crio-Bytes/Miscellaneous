@@ -24,7 +24,7 @@ In Java, interface refers to an abstract type that is used to specify a behaviou
 ```
 ***Note*** :
 * *The class in which abstract methods are defined should be declared as 'abstract'*
-* *When a regular class inherits that abstract class, it can provide implementation for that inherited abstract method.*
+* *When a regular class inherits that abstract class, it can provide implementation for that inherited abstract method(s).*
 
 ### Task :
   1) You have to create a class **Area** with 'abstract' keyword and inside that class define two methods: **calculateArea()** and **display()**. Refer this code 
@@ -67,8 +67,7 @@ the interface. We can also declare data members in an interface which are public
 1) Create a new interface file in your IDE. Create a public interface **BasePrice**
 2) Refer the code in the file mentioned below; declare two constant fields of **float** type and intialize them with the values mentioned in the comments.  
    [BasePrice.java file](https://github.com/srishti-034/Miscellaneous/blob/main/Interfaces_in_Java/src/Activity%202/BasePrice.java)
-3) Create three abstract methods in the interface- **calculateShirtPrice()**, **calculateBagPrice()** and **calculateBill()**. For the description of arguments and
-return type of the methods, refer the comments in the above code file.  
+3) Create three abstract methods in the interface- **calculateShirtPrice()**, **calculateBagPrice()** and **calculateBill()**. For the description of arguments and return type of the methods, refer the comments in the above code file.  
 
 ### Takeaways :
 I hope you're enjoying this microbyte. Some of the key takeaways from this activity are:
@@ -115,7 +114,7 @@ Are you aware of Multiple Inheritance concept? When a class inherits the propert
 ### Challenge :
 Now it's your time to show some skills. You have to create two interfaces **LandAnimal** and **SeaAnimal** whose parent interface would be **Animal**. These two interfaces would be further inherited by a class **Frog**. Inheritance hirerarchy is shown below:  
 ![Activity3 output](images/Bonus_activity_inheritance_hierarchy.png)  
-Now for the implementation part, you're free to do anything. You can experiment with abstract methods by choosing arguments and return type of your choice. And finally provide implementation for the abstract methods in the **Frog** class. Go ahead.  
+Now for the implementation part, you're free to do anything. You can experiment with abstract methods by choosing arguments and return type of your choice. And finally provide implementation for the abstract methods in the **Frog** class. Go ahead, all the best and  
 Happy Coding!!  
 
 # References
