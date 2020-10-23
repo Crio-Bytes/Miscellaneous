@@ -154,7 +154,7 @@ android:id="@+id/<name_of_id>"
 
 
 
-## Activity 4-
+## Activity 5-
 Now here comes the important part Build apk to install in phone and share with yourfriends
 
 ## Step 1-GO to BUILD 
