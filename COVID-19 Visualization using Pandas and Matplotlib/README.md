@@ -61,6 +61,8 @@ The data set used here in this microbyte is [this](https://raw.githubusercontent
 
 In this activity we will be loading necessary libraries(pandas and matplotlib), reading in data and setting up some basic layout features.
 
+>NOTE: This activity is common for all. Activities 2,3,4,5 are independent and can be done inidividually by using activity 1's code in each case.
+
 TL;DR ? Let's get started- 
 > Go to src/Activity_1.ipynb
 
