@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pic0"
+        android:layout_width="246dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bill" />
+
+
+
+    <ImageView
+        android:id="@+id/pic1"
+        android:layout_width="246dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="40dp"
+        <!--Set the alpha of the image be 0 -->
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rohit" />
+
+    <ImageView
+        android:id="@+id/pic2"
+        android:layout_width="246dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="40dp"
+    <!--Set the alpha of the image be 0 -->
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/srk" />
+
+
+
+    <ImageView
+        android:id="@+id/pic3"
+        android:layout_width="246dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="40dp"
+    <!--Set the alpha of the image be 0 -->
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/virat" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic0">
+
+        <ImageButton
+            android:id="@+id/prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="53dp"
+<!--            Set the onclick value to a function-->
+            android:layout_marginRight="53dp"
+            android:layout_weight="1"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/icon_prev"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        <!--            Set the onclick value to a function-->
+            android:layout_marginLeft="53dp"
+            android:layout_marginRight="53dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_next"
+            tools:ignore="VectorDrawableCompat" />
+
+    </LinearLayout>
+
+<!--   SEt the textview for the images name -->
+
+</android.support.constraint.ConstraintLayout>
