@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton prev, next;
     ImageView pic;
     TextView text;
-    int currentImage = 0;
+    int currentImage ;
     // 0-1-2-3-4-0-1-2-3-4
 
 
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         pic = findViewById(x);
         pic.setAlpha(0f);
 
-        currentImage = (4 + currentImage - 1) % 4;
+        // set the value of currentImage in such a way it repeats in a circulatory pattern.
         String idY = "pic" + currentImage;
         int y = this.getResources().getIdentifier(idY, "id", getPackageName());
         pic = findViewById(y);
