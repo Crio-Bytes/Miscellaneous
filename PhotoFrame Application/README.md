@@ -82,24 +82,23 @@ Reference : You can go through this link and search for your query via Ctrl+F an
 ### Again Note that you need to write your own code in place of TODO comments.
 
 
-1. Set the value of alpha of the imageview so that the image should be visible and set the text showing image names.
+1. Set the value of alpha of the imageview so that the image should be visible and set the text showing image names. Build the logic for the currentImage variable in such a way that the images repeat in a circulatory pattern.
   
-      ```   public void prev(View v){
+    ``` public void prev(View v){
         text = findViewById(R.id.text);
         String idX = "pic" + currentImage;
         int x = this.getResources().getIdentifier(idX, "id", getPackageName());
         pic = findViewById(x);
         pic.setAlpha(0f);
 
-        currentImage = (4 + currentImage - 1) % 4;
+        // set the value of currentImage in such a way it repeats in a circulatory pattern.
         String idY = "pic" + currentImage;
         int y = this.getResources().getIdentifier(idY, "id", getPackageName());
         pic = findViewById(y);
         // Set the value of alpha so that the image should be visible
         // Set the text for the names of the images
 
-    }  ```
-    
+    }   ```
     
 
 2. Build the logic for see the next image/photo and implement it in the "NEXT" function.
