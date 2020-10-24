@@ -34,22 +34,14 @@ public class MainActivity extends AppCompatActivity {
         String idY = "pic" + currentImage;
         int y = this.getResources().getIdentifier(idY, "id", getPackageName());
         pic = findViewById(y);
-        pic.setAlpha(1f);
-        text.setText(names[currentImage]);
+        // Set the value of alpha so that the image should be visible
+        // Set the text for the names of the images
 
     }
 
     public void next(View v){
         text = findViewById(R.id.text);
-        String idX = "pic" + currentImage;
-        int x = this.getResources().getIdentifier(idX, "id", getPackageName());
-        pic = findViewById(x);
-        pic.setAlpha(0f);
+        // write your code here
 
-        currentImage = (currentImage + 1) % 4;
-        String idY = "pic" + currentImage;
-        int y = this.getResources().getIdentifier(idY, "id", getPackageName());
-        // Set the value of alpha so that the image should be visible
-//        Set the text for the names of the images
     }
 }
