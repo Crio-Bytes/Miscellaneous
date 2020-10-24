@@ -64,7 +64,7 @@ In this activity we will be loading necessary libraries(pandas and matplotlib), 
 >NOTE: This activity is common for all. Activities 2,3,4,5 are independent and can be done inidividually by using activity 1's code in each case.
 
 TL;DR ? Let's get started- 
-> Go to src/Activity_1.ipynb
+> Go to src/Activity-1/Activity_1.ipynb
 
 The output on executing the .head() function should be something like 
 <div align="center">
@@ -76,7 +76,7 @@ The output on executing the .head() function should be something like
 
 In this activity you will be plotting your first plot used to visualize total number of cases versus all confirmed,recovered,death counts in a single plot. 
 
-> Go to src/Activity_2.ipynb
+> Go to src/Activity-2/Activity_2.ipynb
 
 The ouput on executing plt.show() should be like
 <div align="center">
@@ -88,7 +88,7 @@ The ouput on executing plt.show() should be like
 
 In this activity you will be plotting a similar graph as before but here you will be seeing the trend of cases in a country as compared to the world. 
 
-> Go to src/Activity_3.ipynb
+> Go to src/Activity-3/Activity_3.ipynb
 
 The ouput on executing plt.show() should be like
 <div align="center">
@@ -100,7 +100,7 @@ The ouput on executing plt.show() should be like
 
 In this activity you will be plotting a bar graph of Daily cases confirmed vs Daily deaths registered. This will give us the idea of how well the country is holding up in these times on a daily basis.
 
-> Go to src/Activity_4.ipynb
+> Go to src/Activity-4/Activity_4.ipynb
 
 The ouput on executing plt.show() should be like
 <div align="center">
