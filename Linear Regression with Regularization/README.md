@@ -47,6 +47,16 @@ To overcome this behaviour, we have 3 different kinds of regularization techniqu
 
 > *Refer to src/Activity 3/Activity 3 - Ridge, Lasso and ElasticNet Regression.ipynb*
 
+### Activity 4 - Detailed Data Analysis
+
+Congratulations!!! You now have complete knowledge of Linear Regression and are ready to get into the more complex algorithms.
+
+By this time, you would have understood that Linear Regression is sensitive to outliers. This is because the cost function on which it is evaluated, increases unusually in the presence of outliers. This sensitivity of the algorithm results in a completely different model than a usual one.
+
+To understand our data and detecting the outliers we use a concept. These are **Detailed Data Analysis**. Let us learn about them in detail in this activity.
+
+> *Refer to src/Activity 4/Activity 4 - Detailed Data Analysis.ipynb*
+
 ## Summary
 
 Now, you must be confident in the implementation of Linear Regression and its Regularized variations. Also, you must be clear in the algorithm and can debug any unusual behaviour that the model shows in any dataset.
