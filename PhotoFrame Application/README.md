@@ -1,11 +1,6 @@
 # Introduction
 
-The app name is MyPhotoFrame Application. This app solves the real world problem. I mean to say that we click photos in our mobile in free time or in 
-regular days and when it's time to see the photos we open the gallery swipe left and right to see the images. This app little bit as same but there are minor differences 
-because the mobile gallery app has some advanced features. 
-
-In this Microbyte, we make an same app but little bit different and easy so feel free. In this app, you may have to press the button i.e, left and right to see the images and 
-the images are choosen by us.
+We use mobile gallery in regular days to see the photos, documents, etc. There is a feature of swiping left and right in mobile devices to see the photos. In this Microbyte, we will use this "SWIPING" concept and make an app which works same as mobile gallery but little bit different. In this app, we don't read any SD card to see the photos. Now the  question arise so after completion of an app, what will it do? Be patience, we would not do any advanced coding so we just try to make a simple app that has swiping features i.e, left and right button to see the images with their names. In this app, Images are selected by us which are provided you to in a img folder(Don't confuse with the screenshot folder).
 
 After the completion of this app, it may looks like the screenshot we provided you in the images folder which contains screenshot folder.
 Here are some screenshots:
@@ -13,12 +8,12 @@ Here are some screenshots:
 <img src="https://github.com/deepak-prajapatii/Miscellaneous/blob/android_tasks/PhotoFrame%20Application/images/Screenshot/Screenshot_1.jpg" width="350" >
 <img src="https://github.com/deepak-prajapatii/Miscellaneous/blob/android_tasks/PhotoFrame%20Application/images/Screenshot/Screenshot_2.jpg" width="350" >
 
-There are the images button for swipe the images left and right. You can see the Imagebuttons in the given screenshot above. Also, there is the text showing image name as the image 
-changes the name will also changes.
+There are the images button for swipe the images left and right. You can see the Imagebuttons in the given screenshot above. Also, there is the text showing image name as the image changes it also reflects the name of the images. For more, you can take help or hints from the screenshots provided in screenshot folder(Inside the img folder).
 
 # Prerequisites
 
-You need to familiar with JAVA basics and some XML for styling the app.
+You need to familiar with JAVA basics and some XML for styling the app. 
+
 First you need to install the JDK(Java Development Kit) on your local machine from here https://www.oracle.com/java/technologies/javase-jdk15-downloads.html. If you face any problem in installing the JDK, go to youtube there are many tutorials how to install JDK. One of them is https://rb.gy/qvic45. 
 After installing JDK, now you need to install the Android Studio from here:  https://rb.gy/6op4ac 
 
@@ -27,26 +22,58 @@ When opening the android studio, create a project and you can do follow these st
 2. There are some images you need to paste them all in your drawable folder two times, first for drawable and other one for drawable(v24).
 
 
+In case if you are not familiar with the Java/XML, you can go through the reference links:
+
+[XML : Building layouts](https://classroom.udacity.com/courses/ud834)
+
+[JAVA Tutorials](https://www.w3schools.com/java/)
+
+
 # Activities
 
-## Activity 1 : Debugging and coding in activity_main.xml
+## Activity 1 : Layout Improvement
 ### Note that you need to write your own code in place of TODO comments.
 
 1. Set the value of alpha of the imageview so that the image should not be visible in place of TODO comments.
  
- ![Screenshot (220)](https://user-images.githubusercontent.com/65127291/96956760-977dcd00-1516-11eb-9900-788cb72b4bcb.png)
+
+   ``` <ImageView
+        android:id="@+id/pic1"
+        android:layout_width="246dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="40dp"
+        
+        <!--Set the alpha of the image be 0 -->
+    
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rohit" /> ```
+        
  
  Reference : You can go through the link : https://rb.gy/eao5wa  and search for alpha parameter.
 
-2. Create the textfield via TextView to show the names of the images as given in the screenshot :
+2. Create the textfield via TextView to show the names of the images as given in the screenshot:
 
-![Screenshot (224)](https://user-images.githubusercontent.com/65127291/96957824-59ce7380-1519-11eb-8d92-fc3022908066.png)
+       ``` <TextView
+            <!-- Set the textview for showing images name-->
+            /> ```
 
 Make sure that there is no hardcore strings present in the textview.
 
 3. Set the function in ImageButtons i.e, for left button you would need to set the "prev" function in the Onclick parameter of the ImageButtons. Do same for the right button.
 
-![Screenshot (225)](https://user-images.githubusercontent.com/65127291/96957872-7b2f5f80-1519-11eb-9ee9-d61c96fca70a.png)
+    ```     <ImageButton
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            <!--   Set the onclick value to a function-->
+            android:layout_marginLeft="53dp"
+            android:layout_marginRight="53dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_next"
+            tools:ignore="VectorDrawableCompat" /> ```
 
 Reference : You can go through this link and search for your query via Ctrl+F and search :  https://rb.gy/l3an7c
 
@@ -54,12 +81,37 @@ Reference : You can go through this link and search for your query via Ctrl+F an
 ## Activity 2 : Coding Phase in the MainActivity.java
 ### Again Note that you need to write your own code in place of TODO comments.
 
-![Screenshot (226)](https://user-images.githubusercontent.com/65127291/96958119-2a6c3680-151a-11eb-98f6-ef9ac6999683.png)
 
-1. Set the value of alpha of the imageview so that the image should be visible in place of TODO comments.
+1. Set the value of alpha of the imageview so that the image should be visible and set the text showing image names.
+  
+      ```   public void prev(View v){
+        text = findViewById(R.id.text);
+        String idX = "pic" + currentImage;
+        int x = this.getResources().getIdentifier(idX, "id", getPackageName());
+        pic = findViewById(x);
+        pic.setAlpha(0f);
 
-2. Write code for the names of the images when we swipe the image name should also changes as given in the screenshot folder.
+        currentImage = (4 + currentImage - 1) % 4;
+        String idY = "pic" + currentImage;
+        int y = this.getResources().getIdentifier(idY, "id", getPackageName());
+        pic = findViewById(y);
+        // Set the value of alpha so that the image should be visible
+        // Set the text for the names of the images
 
+    }  ```
+    
+    
+
+2. Build the logic for see the next image/photo and implement it in the "NEXT" function.
+Hint : Just understand carefully the "PREV" function and build the logic for the "NEXT" function.
+
+``` 
+public void next(View v){
+        text = findViewById(R.id.text);
+        // write your code here
+
+    }
+```
 
 Check for errors and debug it.
 
