@@ -1,0 +1,28 @@
+version: '3.3'
+
+services:
+   lamp_img:
+     build: ./
+   lamp:
+     image: dockercompose_lamp_img
+     volumes:
+       - db_data:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: rootpass
+       MYSQL_DATABASE: lamp
+       MYSQL_USER: lamp
+       MYSQL_PASSWORD: lamp
+     tty: true
+     ports:
+     - target: 80
+       published: 80
+       protocol: tcp
+       mode: bridge
+     - target: 3306
+       published: 3306
+       protocol: tcp
+       mode: bridge
+
+volumes:
+    db_data: {}
