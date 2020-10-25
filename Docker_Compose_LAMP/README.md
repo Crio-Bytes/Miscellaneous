@@ -81,11 +81,12 @@ docker-compose stop
 docker-compose start
 ```
 
-![Docker](Activities/containers.png?raw=true)
+![Docker](Images/containers.png?raw=true)
 
 
 # References 
 
-Dockerfile : https://docs.docker.com/engine/reference/builder/
+Dockerfile : https://docs.docker.com/engine/reference/builder/ 
+
 DockerCompose : https://docs.docker.com/compose/
 
