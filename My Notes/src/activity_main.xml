@@ -36,17 +36,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="344dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="76dp"
-        android:ems="10"
-        android:hint="@string/notes"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+<!--        write your code here-->
+         />
 
     <Button
 <!--      write your code here  -->
