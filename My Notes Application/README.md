@@ -21,41 +21,27 @@ In case if you are not familiar with the Java/XML, you can go through the refere
 
 [JAVA Tutorials](https://www.w3schools.com/java/)
 
+
 # Activities
 
 ## Activity 1 : Fix Layout
 ### Note that you need to write your own code in place of TODO comments.
 
-1. Create a Edittext and set the hint as "Enter your Notes".
+In the "activity_main.xml", you would need to improve the layout of the app. In other words, you would need to write the xml code to improve the layout of the app. After completion of the app, your app's UI looks like the given screenshot.
 
-```
-<EditText
-        android:id="@+id/editTextTextPersonName"
-<!--        write your code here-->
-         />
- ```
- 
-It may looks like the given screenshot provided to you in the images folder.
+Reference: https://developer.android.com/guide/topics/ui/declaring-layout
 
-2. Create a Button named as "Save Notes". Make sure that there is no hardcore strings present in the Button.
+Screenshot: 
 
-```
-    <Button
-<!--      write your code here  -->
-    />
-```
+<img src="./images/Screenshot_1.jpg" alt="screenshot" width="300" height="400"/>
 
-After creating the layout, it looks like as in the given screenshot below:
-
-<img src="images/Screenshot_1.jpg" alt="screenshot" width="300" height="400"/>
 
 ## Activity 2 : Coding Phase in the MainActivity.java
 ### Note that you need to write your own code in place of TODO comments.
 
-1. There are lot of variables or widget which needs to import in the MainActivity.java file.
+In the "MainActivity.java", there are lot of things to do in this file. You need to write your code to save the notes and when the app is restart, your saved data will be retrieved and display in the textview. This can be done with the help of "Shared Preferences". Don't worry if you don't know so much about that, you can take help from the reference link given below.
 
-2. Set the onClickListener on the button which actually saves your notes when some text is entered by you. You must use shared preference for solving this task.
-If you don't know so much about that don't worry, you can go through the reference link by clicking [here](https://www.tutorialspoint.com/android/android_shared_preferences.htm).
+Reference:  [Shared Preferences](https://www.tutorialspoint.com/android/android_shared_preferences.htm)
 
 ```
 button.setOnClickListener(new View.OnClickListener(){
@@ -69,23 +55,14 @@ button.setOnClickListener(new View.OnClickListener(){
                 //write your code here
             }
         });
-```
 
-3. Now it's time to retrieve your save data after the app is restart. This can be done by getting the string in key value pair and set the text to that value.
-
-```
 SharedPreferences getShared = getSharedPreferences("demo", MODE_PRIVATE);
 
         //write your code here
 ```
 
-
 # References
 
 1. [Android Documentation](https://developer.android.com/)
 2. [Button Layout](https://developer.android.com/guide/topics/ui/controls/button)
-3. [Shared Preferences](https://www.tutorialspoint.com/android/android_shared_preferences.htm)
-
-
-
-
+3. [EditText layout](https://developer.android.com/reference/android/widget/EditText)
