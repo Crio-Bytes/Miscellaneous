@@ -25,21 +25,33 @@ In case if you are not familiar with the Java/XML, you can go through the refere
 # Activities
 
 ## Activity 1 : Fix Layout
-### Note that you need to write your own code in place of TODO comments.
 
-In the "activity_main.xml", you would need to improve the layout of the app. In other words, you would need to write the xml code to improve the layout of the app. After completion of the app, your app's UI looks like the given screenshot.
+Please have a look for the screenshot of the app provided to you in the images folder and code the xml to generate the similar layout as given in the screenshot. You would need to write your xml code in "activity_main.xml".  Make sure there is no hardcore string/text present in the xml file. Don't worry if you don't have so much knowledge about the xml, we will provided you some references which will help you for sure. I personally suggests you that go through the reference links and explore more about that.
 
-Reference: https://developer.android.com/guide/topics/ui/declaring-layout
+#### One more thing, you would need to write your code in place of TODO comments. 
+Example: 
 
-Screenshot: 
+```
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+<!--        write your code here-->
+         />
 
-<img src="./images/Screenshot_1.jpg" alt="screenshot" width="300" height="400"/>
+    <Button
+<!--      write your code here  -->
+    />  
+```
+
+Reference for Layout:<br/><br/>
+[XML Layout](https://developer.android.com/guide/topics/ui/declaring-layout)<br/>
+[Button Layout](https://developer.android.com/guide/topics/ui/controls/button)<br/>
+[EditText layout](https://developer.android.com/reference/android/widget/EditText)
 
 
 ## Activity 2 : Coding Phase in the MainActivity.java
-### Note that you need to write your own code in place of TODO comments.
 
-In the "MainActivity.java", there are lot of things to do in this file. You need to write your code to save the notes and when the app is restart, your saved data will be retrieved and display in the textview. This can be done with the help of "Shared Preferences". Don't worry if you don't know so much about that, you can take help from the reference link given below.
+In this phase, you would need to write your code in "MainActivity.java" file. Now, we have to code for saving our data and display in the textview. WE will use "SharedPreferences" class in this microbyte. You may have require to the various imports and using their methods. 
+Don't worry if don't have any idea how to use "SharedPreferences", we will provided to you the references and go through these for sure. It may helps you to use the "SharedPreferences" and explore yourself.
 
 Reference:  [Shared Preferences](https://www.tutorialspoint.com/android/android_shared_preferences.htm)
 
@@ -60,6 +72,11 @@ SharedPreferences getShared = getSharedPreferences("demo", MODE_PRIVATE);
 
         //write your code here
 ```
+
+#### Micro challange
+
+Complete the microbyte, enter the any information that you want to save and save the information via pressing the "Save Button".
+
 
 # References
 
