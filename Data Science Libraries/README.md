@@ -20,12 +20,16 @@ These libraries form the basis of any Machine Learnig Project or Algorithm.
 
 This is a standard data science library that helps to generate data visualizations such as two-dimensional diagrams and graphs (histograms, scatterplots, non-Cartesian coordinates graphs). Matplotlib is one of those plotting libraries that are really useful in data science projects  it  provides an object-oriented API for embedding plots into applications. 
 
+In this activity, we will be learning the basic sementics that has to be followed while dealing with graphs in data-science and how matplotlib makes it easier to visualize the data.
+
 > *Refer to src/Activity 1/Activity 1 Matplotlib.ipynb*
 
 
 ### Activity 2 - Pandas
 
 Pandas is a library created to help developers work with "labeled" and "relational" data intuitively. It's based on two main data structures: "Series" (one-dimensional, like a list of items) and "Data Frames" (two-dimensional, like a table with multiple columns). Pandas allows converting data structures to DataFrame objects, handling missing data, and adding/deleting columns from DataFrame, imputing missing files, and plotting data with histogram or plot box. It’s a must-have for data wrangling, manipulation, and visualization.
+
+In this activity, we will be learning how to use pandas for dealing with dataset statictics like loading and analysing the dataset.
 
 > *Refer to src/Activity 2/Activity 2 Pandas.ipynb*
 
