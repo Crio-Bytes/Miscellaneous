@@ -29,6 +29,12 @@ Pandas is a library created to help developers work with "labeled" and "relation
 
 > *Refer to src/Activity 1/Activity 1 Pandas.ipynb*
 
+### Activity 3 - Test Yourself
+
+This activity is used to test your knowledege of matplotlib and pandas.
+
+> *Refer to src/Activity 1/Activity 3 Test Yourself.ipynb*
+
 ## Summary
 
 Now, you must be confident in the working with Libraries for data science in python. Also, you must be clear in the syntax and its use as an when necessary.
