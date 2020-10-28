@@ -27,13 +27,13 @@ This is a standard data science library that helps to generate data visualizatio
 
 Pandas is a library created to help developers work with "labeled" and "relational" data intuitively. It's based on two main data structures: "Series" (one-dimensional, like a list of items) and "Data Frames" (two-dimensional, like a table with multiple columns). Pandas allows converting data structures to DataFrame objects, handling missing data, and adding/deleting columns from DataFrame, imputing missing files, and plotting data with histogram or plot box. It’s a must-have for data wrangling, manipulation, and visualization.
 
-> *Refer to src/Activity 1/Activity 1 Pandas.ipynb*
+> *Refer to src/Activity 2/Activity 2 Pandas.ipynb*
 
 ### Activity 3 - Test Yourself
 
 This activity is used to test your knowledege of matplotlib and pandas.
 
-> *Refer to src/Activity 1/Activity 3 Test Yourself.ipynb*
+> *Refer to src/Activity 3/Activity 3 Test Yourself.ipynb*
 
 ## Summary
 
