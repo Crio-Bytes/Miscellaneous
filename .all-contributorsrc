@@ -155,6 +155,18 @@
         "ideas",
         "doc"
       ]
+    },
+    {
+      "login": "deepak-prajapatii",
+      "name": "Deepak Kumar",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/65127291?v=4",
+      "profile": "https://github.com/deepak-prajapatii",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
