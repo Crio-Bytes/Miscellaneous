@@ -59,7 +59,11 @@ Screenshot:<br/>
 
 # Micro challange
 
-Complete the microbyte, enter the any information that you want to save and save the information via pressing the "Save Button". See what happens after the restarting of an app?
+1. Complete the microbyte, enter the any information that you want to save and save the information via pressing the "Save Button". See what happens after the restarting of an app?
+2. In the second challenge, you would need to make the app's UI more attractive. Example: You can set the border of the views, changing the colors of Button and more.
+3. This is the third and the last challenge, it would be more exciting now. You would need to code in such a manner that everytime users add something to this app, it will add up in the continous series.
+Example:
+Suppose the user saves the contact number of anyone else, after the restarting of an app it will show up the contact number or details that the user saved recently. Now again user wants to save data but this time, the new data will save and the previous data will also shown up there. In other words, all previous data does not supposed to disappear.
 
 ## Congrats Dev! You successfully created "My Notes Appication".
 
