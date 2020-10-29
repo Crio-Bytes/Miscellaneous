@@ -4,8 +4,8 @@
 
 ### Checklist: 
 
-- [] Added activities for learners
-- [] Didn't give the solutions to the added activities straight away
-- [] Followed a LearnByDoing approach
-- [] Clean and well documented code (if source code files are involved)
-- [] Added images for better understanding if deemed necessary
+- [x] Added activities for learners
+- [x] Didn't give the solutions to the added activities straight away
+- [x] Followed a LearnByDoing approach
+- [x] Clean and well documented code (if source code files are involved)
+- [x] Added images for better understanding if deemed necessary
