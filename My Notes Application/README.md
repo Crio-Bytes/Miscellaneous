@@ -57,7 +57,7 @@ Reference:<br/>[Shared Preferences](https://www.tutorialspoint.com/android/andro
 Screenshot:<br/>
 <img src="./images/Screenshot_2.jpg" alt="screenshot" width="400" height="500"/>
 
-#### Micro challange
+# Micro challange
 
 Complete the microbyte, enter the any information that you want to save and save the information via pressing the "Save Button". See what happens after the restarting of an app?
 
