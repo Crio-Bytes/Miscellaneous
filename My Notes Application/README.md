@@ -1,6 +1,6 @@
 # Introduction
 
-Hello geeks, In this microbyte we will working on the most used app named as "My Notes". You may know some 10-15 years before, our parents was used to make a dairy for saving their contact numbers, expenditures of homes and many others. Today we will working on this type of app. We are not supposed to do adavnced level of coding, we just use the logic and implement the code for saving contact or any other text.
+Hello geeks, In this microbyte we will working on the most used app named as "My Notes". You may know some 10-15 years before, our parents was used to make a dairy for saving their contact numbers, expenditures of homes and many others. Today we will working on this type of app. Build the logic, implement the code, run and debug for errors.
 
 From this microbyte, we will learn how can we make a notes app in which any text is saved and when we restart the app it will show up you the text that you had save recently. We  use "SharedPreferences" to make this app. Don't worry if you don't have knowledge about that, we will give you reference material where it be compulsory.
 
@@ -59,7 +59,7 @@ Screenshot:<br/>
 
 #### Micro challange
 
-Complete the microbyte, enter the any information that you want to save and save the information via pressing the "Save Button". Close the app and reopen the app again, see there is the information enter by you will display at the top of the screen.
+Complete the microbyte, enter the any information that you want to save and save the information via pressing the "Save Button". See what happens after the restarting of an app?
 
 ## Congrats Dev! You successfully created "My Notes Appication".
 
