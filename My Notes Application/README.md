@@ -28,7 +28,7 @@ In case if you are not familiar with the Java and XML, you can go through the re
 
 1. Please have a look for the screenshot of the app provided to you in the images folder and code the xml to generate the similar layout as given in the screenshot. You would need to write your xml code in "activity_main.xml".  Make sure there is no hardcore string/text present in the xml file. Don't worry if you don't have so much knowledge about the xml, we will provided you some references which will help you for sure. I personally suggests you that go through the reference links and explore more about that.<br/><br/>
 #### One more thing, you would need to write your code in place of TODO comments. <br/><br/>
-Screenshot:
+Screenshot:<br/>
 <img src = "./images/Screenshot_1.jpg" alt="screenshot" width="400" height="500"/><br/><br/>
 Reference for Layout:<br/>
 [XML Layout](https://developer.android.com/guide/topics/ui/declaring-layout)<br/>
@@ -37,7 +37,7 @@ Reference for Layout:<br/>
 
 2. There are many Views and viewsgroup which needs to required to import for their use in the "MainActivity.java" file.<br/><br/>
 Reference: https://www.dev2qa.com/how-to-auto-import-all-class-in-android-studio/  <br/><br/>
-Screenshot:
+Screenshot:<br/>
 ![Capture](https://user-images.githubusercontent.com/65127291/97537429-cac3ce80-19e4-11eb-9a4b-acdd0c4d28ec.PNG)
 
 
@@ -54,7 +54,7 @@ button = findViewById(R.id.button);
 4. In this phase, you would need to write your code in "MainActivity.java" file. Now, we have to code for saving our data and display in the textview. You may have require to the various imports and using their methods. 
 We will provided to you the references and go through these for sure. It may helps you to use the build the logic on how to save our data and it remains available after restarting of tha app. Go through the reference link and explore yourself.<br/><br/>
 Reference:<br/>[Shared Preferences](https://www.tutorialspoint.com/android/android_shared_preferences.htm) <br/><br/>
-Screenshot:
+Screenshot:<br/>
 <img src="./images/Screenshot_2.jpg" alt="screenshot" width="400" height="500"/>
 
 #### Micro challange
