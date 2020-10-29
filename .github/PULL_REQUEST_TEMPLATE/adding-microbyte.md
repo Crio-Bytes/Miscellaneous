@@ -1,6 +1,6 @@
 ## Closes #<Issue No.>
 
-<Put a x between the square brackets to mention the points u have completed from the checklist, like [x]. Make sure you get them all :) >
+<Put a x between the square brackets to mention the points u have completed from the checklist, like [x]. Make sure you get them all>
 
 ### Checklist: 
 
