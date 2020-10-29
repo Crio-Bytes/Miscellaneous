@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">VideoDemo</string>
+    <string name="videoTitle">Video Blog</string>
+    <string name="videoViews">26,361 views</string>
+    <string name="video_publishDate">08-Oct-2018</string>
+    <string name="action_like">Like</string>
+    <string name="action_dislike">Dislike</string>
+    <string name="action_share">Share</string>
+    <string name="action_download">Download</string>
+    <string name="action_saveVideo">Save</string>
+    <string name="user_name">XYZ Vlog</string>
+    <string name="user_image">User Image</string>
+    <string name="user_subscribe">Subscribe</string>
+    <string name="action_home">Home</string>
+    <string name="action_trending">Trending</string>
+    <string name="action_post">Post</string>
+    <string name="action_subscription">Subscription</string>
+    <string name="action_accounts">Account</string>
+
+
+</resources>
