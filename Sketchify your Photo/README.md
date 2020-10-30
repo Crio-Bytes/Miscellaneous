@@ -41,6 +41,10 @@ To Convert the RGB color image to grayscale, you just have to take the average o
 
 > *Refer to src/Activity 1/Activity-1-RGB to Grayscale.ipynb*
 
+<a href="https://github.com/rutujak24">
+  <img width=40% align="center" src="https://github.com/rutujak24/Pencil-Sketch/blob/master/gray.png" />
+</a>
+
 ### Activity 2
 **Invert the grayscale image to get a negative.**
 Image negatives, most of you might have heard this term, in good old days were used to produce images. Film Photography has not yet become obsolete as some wedding photographers are still shooting film. Because one has to pay for the film rolls and processing fees, most people have now switched to digital.Let’s create a negative transformation of the image.
@@ -49,6 +53,9 @@ Image negative is produced by subtracting each pixel from the maximum intensity 
 
 > *Refer to src/Activity 2/Activity-2-Invert Image.ipynb*
 
+<a href="https://github.com/rutujak24">
+  <img width=40% align="center" src="https://github.com/rutujak24/Pencil-Sketch/blob/master/invert.jpg" />
+</a>
 
 ### Activity 3
 **Apply a Gaussian blur to the negative from activity 2.**
@@ -61,6 +68,9 @@ Image blurring is achieved by convolving the image with a low-pass filter kernel
 
 > *Refer to src/Activity 3/Activity-3-Gaussian blur.ipynb*
 
+<a href="https://github.com/rutujak24">
+  <img width=40% align="center" src="https://github.com/rutujak24/Pencil-Sketch/blob/master/blur.jpg" />
+</a>
 
 ### Activity 4
 **Blend the grayscale image from step 1 with the blurred negative from step 3 using a color dodge.**
@@ -68,6 +78,10 @@ Image blurring is achieved by convolving the image with a low-pass filter kernel
 We know that when we solve any image related problem, we have to take a matrix. The matrix content will vary depending upon the image type - either it would be a binary image(0, 1), gray scale image(0-255) or RGB image(255 255 255). So if we want to add of two images then that means very simple we have to add respective two matrices. Blending of the two image can be done using: cv2.addWeighted() function is used for blending of two images.
 
 > *Refer to src/Activity 4/Activity-4-Color dodge.ipynb*
+
+<a href="https://github.com/rutujak24">
+  <img width=40% align="center" src="https://github.com/rutujak24/Pencil-Sketch/blob/master/sketch.jpeg" />
+</a>
 
 ### Activity 5 
 **Test Yourself**
