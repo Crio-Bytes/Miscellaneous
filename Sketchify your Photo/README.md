@@ -34,6 +34,7 @@ If you are new to Open CV, here is how to install it on anaconda platform or you
 
 ### Activity 1 
 **Convert the RGB color image to grayscale.**
+
 To Convert the RGB color image to grayscale, you just have to take the average of three colors. Since its an RGB image, so it means that you have add r with g with b and then divide it by 3 to get your desired grayscale image. Its done in this way.
 
 > *Refer to src/Activity 1/Activity-1-RGB to Grayscale.ipynb*
@@ -61,12 +62,16 @@ Image blurring is achieved by convolving the image with a low-pass filter kernel
 
 ### Activity 4
 **Blend the grayscale image from step 1 with the blurred negative from step 3 using a color dodge.**
+
 We know that when we solve any image related problem, we have to take a matrix. The matrix content will vary depending upon the image type - either it would be a binary image(0, 1), gray scale image(0-255) or RGB image(255 255 255). So if we want to add of two images then that means very simple we have to add respective two matrices. Blending of the two image can be done using: cv2.addWeighted() function is used for blending of two images.
 
 > *Refer to src/Activity 4/Activity-4-Color dodge.ipynb*
 
 ### Activity 5 
-**Combine all the above activities to make a working model**
+**Test Yourself**
+
+Combine the learnings of all above activities to make a working model.
+
 
 > *Refer to src/Activity 5/Activity-5-Test Yourself.ipynb*
 
