@@ -58,11 +58,12 @@ Reference:
 Now it's time to fetching data from the given URL, you can take url from [FAKEJSON Placeholder](https://jsonplaceholder.typicode.com/). You are required to use the "Logcat terminal" in the android studio to see the response getting from the url you use.<br/><br/>
 
 Screenshot: <br/>
-<img src="./images/Capture_1.png" alt="screenshot"/><br/>
+<img src="./images/Capture_1.PNG" alt="screenshot"/><br/>
 
 In this screenshot, there is all the data contain by this [URL](https://jsonplaceholder.typicode.com/todos/1). You are required to fetch this data.
 
-<img src="./images/screenshot_1" alt="screenshot"/><br/>
+Screenshot: <br/>
+<img src="./images/screenshot_1.PNG" alt="screenshot"/><br/>
 
 In this screenshot, there is a some details about "Logcat Terminal". After fetching the data, your response will looks like that. Don't worry, if you feel low. We will provided to you a reference link.
 
