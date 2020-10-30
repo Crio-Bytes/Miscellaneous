@@ -1,6 +1,6 @@
 # Sketchify your Photo
 
-### Ever wondered how the photo editing apps generate a automatic pencil sketch of your photo? Here is a micro-byte wherein you can Sketchify your Photo using Open CV.
+### Ever wondered how the photo editing apps generate an automatic pencil sketch of your photo? Here is a micro-byte wherein you can Sketchify your Photo using Open CV.
 
 Interesting image filter effects, such as a pencil sketch, do not have to be very computationally involved to look good. In fact, in order to create a beautiful black-and-white pencil sketch effect, all you essentially need is some blurring and two image blending techniques called dodging and burning.
 
