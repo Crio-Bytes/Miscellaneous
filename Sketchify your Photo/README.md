@@ -69,7 +69,7 @@ Image blurring is achieved by convolving the image with a low-pass filter kernel
 > *Refer to src/Activity 3/Activity-3-Gaussian blur.ipynb*
 
 <a href="https://github.com/rutujak24">
-  <img width=40% align="center" src="https://github.com/rutujak24/Pencil-Sketch/blob/master/blur.jpg" />
+  <img width=40% align="center" src="https://github.com/rutujak24/Pencil-Sketch/blob/master/gblur.jpg" />
 </a>
 
 ### Activity 4
