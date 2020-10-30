@@ -25,6 +25,8 @@ For this micro-task, you should have a basic knowledge of:
 * Python
 * Open CV basics
 
+Along with this, we will be using **Jupyter Notebooks** as our working environment. So make sure you have it configured for your pc or laptop. You can have a look at the installation instructions [here](https://jupyter.org/install)
+
 If you are new to Open CV, here is how to install it on anaconda platform or your loacal machine.
 [Install Open CV](https://pypi.org/project/opencv-python)
 
