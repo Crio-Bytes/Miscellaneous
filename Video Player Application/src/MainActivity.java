@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        VideoView videoView = findViewById(R.id.videoView);
+        VideoView videoView;
 
 //        write your code here
     }
