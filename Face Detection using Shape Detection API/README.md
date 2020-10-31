@@ -59,7 +59,9 @@ We don't want our application to blow up with errors when a potential customer i
 
 Instead we can gracefully deny the user with an appropriate message as mentioned below:-
 
-![Humse na ho payega](./images/keep-calm-kyuki-hamse-na-ho-payega.png)
+<p align="center">
+  <img src="./images/keep-calm-kyuki-hamse-na-ho-payega.png">
+</p>
 
 Jokes apart! An appropriate message could be:-
 > Your browser does not support the Shape Detection API 
