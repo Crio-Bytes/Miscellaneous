@@ -108,7 +108,7 @@ The FaceDetector instance’s detect() method can then be used to detect human f
 
 - Complete the task labelled with Activity 3.4 and come back here later!
 
-detect() methos returns a Javascript Promise which resolves to an array of DetectedFace objects for each human face that was detected from the video source. 
+detect() method returns a Javascript Promise which resolves to an array of DetectedFace objects for each human face that was detected from the video source. 
 
 Now, here comes the challenging task. How to draw a rectangle around the face with the co-ordinates recieved from the detector. We will see this in the next activity!
 
@@ -122,7 +122,7 @@ Let's start with the 1st sub-activity!
 ---
 ## Activity 4.1: Draw Bounding Box for detected co-ordinates.
 ---
--  Complete the task labelled with Activity 3.4 and come back here later!
+-  Complete the task labelled with Activity 4.1 and come back here later!
 
 The API must be able to detect faces and the boundary rectangle is drawn around the face. Congratulations!!
 
