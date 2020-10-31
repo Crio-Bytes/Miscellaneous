@@ -10,13 +10,17 @@ Don't trust the above quote? You would have a different perspective by end of th
 - Basics of Linear Algebra
 - Python
 
-## Activity: Array from Image
+Helpful Python Setup Links
+- [Python Installation](https://wiki.python.org/moin/BeginnersGuide/Download) 
+- [Install packages from requirements](https://packaging.python.org/tutorials/installing-packages/#requirements-files)
+- [Using pipenv](https://pypi.org/project/pipenv/)
+## Activity-1: Array from Image
 
 Let us do some activity and learn. We will try to decode an image into an array. We are using the following packages. Install the packages before starting.
 - **Numpy** 
 - **PIL**
 
-Open the code directory at `src/python`. The file `app.py` contains the code. Do not be intimidated by the numerous functions, we will learn through activities. 
+Open the code directory at `src/python`. The file `Activity (1).py` contains the code. Do not be intimidated by the numerous functions, we will learn through activities. 
 
 **Decode Image**
 - Modify the function `arrayFromImage()` to use the image from the code directory
@@ -35,10 +39,10 @@ If the above paragraph seems too complicated, recommend you to research a bit on
 - Colour Hexcode
 - RGB(A), CMYK, HSL 
 
-## Activity: Create Image with Code
+## Activity-2: Create Image with Code
 
 Now that we saw that an image can be decoded into an array, can we create an image of our own from an array? <br>
-Open the code directory at `src/python`. The file `app.py` contains the code. 
+Open the code directory at `src/python`. The file `Activity (2).py` contains the code. 
 
 **Create Image**
 - Modify the function `imageFromArray()` to use valid image names in code
@@ -53,16 +57,16 @@ See the code that assigns pixel value in the function. Presently, it is populati
 - Can you modify the function to create a shape(triangle, circle) instead of one colour throughout the image?
 - Can you add some transparency in the image? Hint: Transparency/alpha is the fourth value in the pixel information  
 
-## Challenge Activity: Convert Image to Greyscale
+## [Challenge] Activity-3: Convert Image to Greyscale
 
 Greyscale requires just one channel for colour instead of three like RGB. Can you convert the image in `src/python` to greyscale. One of the ways to convert colour to greyscale is to average the values of colours.
-Use the `toGreyScale()` as reference to begin. 
+Use the `toGreyScale()` in `Activity (3).py` as reference to begin. 
 
 Recommend you to research a bit on the following topics to get an insight about the various greyscale formula.
 - Luminance perception
 - Linear approximation for greyscale
 
-## Activity: Blur with Kernel
+## Activity-4: Blur with Kernel
 
 An image kernel is a small matrix used to apply effects such as blurring, sharpening or edge-detection to the source image.
 <img src='./images/kernel.jpg' width='100%'/>
@@ -75,7 +79,7 @@ An image kernel is a small matrix used to apply effects such as blurring, sharpe
 Kernels are normalized to make sure colour values do not overflow the limit.
 
 **Blur Image**
-- Modify the function `edgeDetection()` to use valid image names in code
+- Modify the function `edgeDetection()` in `Activity (4).py`to use valid image names in code
 - Calculate the correct normalization and use it in code.
 - Scroll to the end of the file and call the function
 
@@ -84,11 +88,11 @@ Kernels are normalized to make sure colour values do not overflow the limit.
 - How would effect change if we use a kernel array of size 3 or size 7?
 
 
-## Bonus Challenge Activity: Edge Detection
+## [Bonus Challenge] Activity-5: Edge Detection
 
 Edge Detection is done on greyscale image calculating edges for each colour channel has no application presently. Hence, images are converted to greyscale before edge detection.
 
-Can you modify the code in the `edgeDetection()` function to detect the edges in an image? Present kernel is <br>
+Can you modify the code in the `edgeDetection()` function in `Activity (5).py`to detect the edges in an image? The present kernel is <br>
 
 ```
 [[1,0,-1],
@@ -100,7 +104,7 @@ This detects an edge in the vertical direction. Run the code to see how it shows
 **Challenge Activities**
 - Convert image to greyscale and use it.
 - Detect horizontal direction edge by using a different kernel
-- Can you modify kernel to detect edges in all direction?
+- Can you modify the kernel to detect edges in all the directions?
 
 
 <details>
@@ -109,7 +113,7 @@ This detects an edge in the vertical direction. Run the code to see how it shows
 </details>
 
 **Challenge Questions**
-- What happens if you use a kernel array of larger size?
+- What happens if you use a kernel array of a larger size?
 - What happens if values of kernel array have larger absolute value?(Like replacing 1 and 2 with 4 and 9 respectively)
 
 ## What next?
