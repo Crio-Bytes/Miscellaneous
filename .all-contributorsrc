@@ -167,6 +167,18 @@
         "ideas",
         "content"
       ]
+    },
+    {
+      "login": "jnana-cetana",
+      "name": "Yakshit Ravindra Jain",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/72009286?v=4",
+      "profile": "https://github.com/jnana-cetana",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
