@@ -1,5 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Introduction
@@ -35,6 +35,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/jnana-cetana"><img src="https://avatars1.githubusercontent.com/u/72009286?v=4" width="100px;" alt=""/><br /><sub><b>Yakshit Ravindra Jain</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=jnana-cetana" title="Code">💻</a> <a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=jnana-cetana" title="Documentation">📖</a> <a href="#ideas-jnana-cetana" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-jnana-cetana" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/DesignrKnight"><img src="https://avatars0.githubusercontent.com/u/27865704?v=4" width="100px;" alt=""/><br /><sub><b>Abel Mathew</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=DesignrKnight" title="Code">💻</a> <a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=DesignrKnight" title="Documentation">📖</a> <a href="#ideas-DesignrKnight" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-DesignrKnight" title="Content">🖋</a></td>
   </tr>
 </table>
 
