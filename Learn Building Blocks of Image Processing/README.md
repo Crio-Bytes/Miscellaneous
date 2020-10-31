@@ -27,6 +27,11 @@ Open the code directory at `src/python`. The file `Activity (1).py` contains the
 - Scroll to the end of the file and call the function
 
 <details>
+<summary>Expected Output (click to expand)</summary>
+<img src='./images/Activity-1.png' width='100%'/>
+</details>
+
+<details>
 <summary>Does the output look like an array? (click to expand)</summary>
 What you are seeing is a 2D array representation of the image. Each element in the 2D array represents information about one pixel of the image. Each element of the 2D array pixel in itself is an array. This array represents the colour and transparency information of the pixel. In an RGB(Red Green Blue) image, the first three elements of the array representing the pixel correspond to these colours values and the fourth optional one represents transparency/alpha. 
 </details>
@@ -49,6 +54,11 @@ Open the code directory at `src/python`. The file `Activity (2).py` contains the
 - Scroll to the end of the file and call the function
 
 <details>
+<summary>Expected Output (click to expand)</summary>
+<img src='./images/Activity-2.png' width='100%'/>
+</details>
+
+<details>
 <summary>Does the output image look messy? (click to expand)</summary>
 See the code that assigns pixel value in the function. Presently, it is populating with random values. Can you modify the code to fill the entire image with one colour, lets say, yellow.
 </details>
@@ -66,6 +76,11 @@ Recommend you to research a bit on the following topics to get an insight about 
 - Luminance perception
 - Linear approximation for greyscale
 
+## References for Kernels and Convolutions
+
+What better way to learn than from the creator of [3Blue1Brown](https://www.3blue1brown.com/), Grant Sanderson teaching at MIT.<br>
+Link: https://computationalthinking.mit.edu/Fall20/lecture2/
+
 ## Activity-4: Blur with Kernel
 
 An image kernel is a small matrix used to apply effects such as blurring, sharpening or edge-detection to the source image.
@@ -82,6 +97,11 @@ Kernels are normalized to make sure colour values do not overflow the limit.
 - Modify the function `edgeDetection()` in `Activity (4).py`to use valid image names in code
 - Calculate the correct normalization and use it in code.
 - Scroll to the end of the file and call the function
+
+<details>
+<summary>Expected Output (click to expand)</summary>
+<img src='./images/Activity-4.png' width='100%'/>
+</details>
 
 **Challenge Questions**
 - Why does for-loop start at 2, instead of 0?
@@ -111,6 +131,10 @@ This detects an edge in the vertical direction. Run the code to see how it shows
 <summary>Expected Output (click to expand)</summary>
 <img src='./images/edge.png' width='100%'/>
 </details>
+
+**Real-World Application**
+Did you know Image Processing has been used in the police department to solve cases? Amazing, isn't it? <br>
+Checkout this video: https://youtu.be/-cXBgHgX5UE
 
 **Challenge Questions**
 - What happens if you use a kernel array of a larger size?
