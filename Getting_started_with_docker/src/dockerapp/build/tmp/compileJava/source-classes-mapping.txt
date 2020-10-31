@@ -1,0 +1,2 @@
+com/crio/dockerapp/DockerappApplication.java
+ com.crio.dockerapp.DockerappApplication

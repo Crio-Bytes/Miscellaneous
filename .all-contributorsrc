@@ -79,7 +79,117 @@
       "profile": "https://kevinpaulose05.github.io/",
       "contributions": [
         "review",
+        "eventOrganizing",
+        "code",
+        "content",
+        "ideas",
+        "doc"
+      ]
+    },
+    {
+      "login": "archithdwij",
+      "name": "Archithdwij",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/30730368?v=4",
+      "profile": "https://github.com/archithdwij",
+      "contributions": [
+        "review",
         "eventOrganizing"
+      ]
+    },
+    {
+      "login": "Aditya-Gupta1",
+      "name": "Aditya Gupta",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/44528202?v=4",
+      "profile": "https://github.com/Aditya-Gupta1",
+      "contributions": [
+        "code",
+        "doc",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "raziiiuddin",
+      "name": "Syed Khaja Raziuddin",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/53375172?v=4",
+      "profile": "https://github.com/raziiiuddin",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "ideas"
+      ]
+    },
+    {
+      "login": "Nitesh-thapliyal",
+      "name": "Nitesh Thapliyal",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/53345517?v=4",
+      "profile": "https://www.linkedin.com/in/nitesh-thapliyal-4403a1135",
+      "contributions": [
+        "code",
+        "content",
+        "ideas",
+        "doc"
+      ]
+    },
+    {
+      "login": "srishti-034",
+      "name": "Srishti",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/44596714?v=4",
+      "profile": "https://github.com/srishti-034",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "ideas"
+      ]
+    },
+    {
+      "login": "rutujak24",
+      "name": "Rutuja Kawade",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/56619747?v=4",
+      "profile": "https://www.linkedin.com/in/rutuja-kawade-6b7a8a171/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas",
+        "doc"
+      ]
+    },
+    {
+      "login": "deepak-prajapatii",
+      "name": "Deepak Kumar",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/65127291?v=4",
+      "profile": "https://github.com/deepak-prajapatii",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "content"
+      ]
+    },
+    {
+      "login": "jnana-cetana",
+      "name": "Yakshit Ravindra Jain",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/72009286?v=4",
+      "profile": "https://github.com/jnana-cetana",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "content"
+      ]
+    },
+    {
+      "login": "DesignrKnight",
+      "name": "Abel Mathew",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/27865704?v=4",
+      "profile": "https://github.com/DesignrKnight",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "content"
       ]
     }
   ],
