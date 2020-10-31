@@ -1,5 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Introduction
@@ -32,6 +32,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/srishti-034"><img src="https://avatars2.githubusercontent.com/u/44596714?v=4" width="100px;" alt=""/><br /><sub><b>Srishti</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=srishti-034" title="Code">💻</a> <a href="#content-srishti-034" title="Content">🖋</a> <a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=srishti-034" title="Documentation">📖</a> <a href="#ideas-srishti-034" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/rutuja-kawade-6b7a8a171/"><img src="https://avatars0.githubusercontent.com/u/56619747?v=4" width="100px;" alt=""/><br /><sub><b>Rutuja Kawade</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=rutujak24" title="Code">💻</a> <a href="#content-rutujak24" title="Content">🖋</a> <a href="#ideas-rutujak24" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=rutujak24" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/deepak-prajapatii"><img src="https://avatars2.githubusercontent.com/u/65127291?v=4" width="100px;" alt=""/><br /><sub><b>Deepak Kumar</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=deepak-prajapatii" title="Code">💻</a> <a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=deepak-prajapatii" title="Documentation">📖</a> <a href="#ideas-deepak-prajapatii" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-deepak-prajapatii" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/jnana-cetana"><img src="https://avatars1.githubusercontent.com/u/72009286?v=4" width="100px;" alt=""/><br /><sub><b>Yakshit Ravindra Jain</b></sub></a><br /><a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=jnana-cetana" title="Code">💻</a> <a href="https://github.com/Crio-Bytes/Miscellaneous/commits?author=jnana-cetana" title="Documentation">📖</a> <a href="#ideas-jnana-cetana" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-jnana-cetana" title="Content">🖋</a></td>
   </tr>
 </table>
 
