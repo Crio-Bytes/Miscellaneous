@@ -132,11 +132,6 @@ async function runShapeDetectionApiDemo() {
 };
 
 // This function displays error if FaceDetection API is not supported on current Browser. 
-function displayFallbackMessage() {
-    document.querySelector('.fallback-message').classList.remove('hidden');
-    document.querySelector('canvas').classList.add('hidden');
-    document.querySelector('.links').classList.add('hidden');
-}
 
 function displayFallbackMessage() {
     document.querySelector('.fallback-message').classList.remove('hidden');
