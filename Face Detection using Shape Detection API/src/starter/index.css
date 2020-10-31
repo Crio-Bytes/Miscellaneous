@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #eee;
+    background-color: #111;
+}
+
+a {
+    font: inherit;
+    color: inherit;
+}
+
+canvas {
+    display: block;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.fallback-message {
+    max-width: 80vw;
+    text-align: center;
+}
+
+.fallback-message .small {
+    font-size: 12px;
+}
