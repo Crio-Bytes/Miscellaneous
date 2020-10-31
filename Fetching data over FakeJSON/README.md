@@ -1,19 +1,25 @@
 # Introduction
 
-Hi Geeks, I'm sure you may heard about the API's(Applciation Programming Interface) and why we use it? Okay, I give you a short introduction about the API's. So, API  is a computing interface which defines interactions between multiple software intermediaries. In other simple words, It defines the kinds of calls or requests that can be made, how to make them, the data formats that should be used, the conventions to follow, etc.
+Hi Geeks, I'm sure you may heard about the API's(Application Programming Interface), JSON, why do we use it and how it works? Don't worry if you are new here and don't know so much about these terms. We will introduce you these terms below.
 
-You would also need to know about the JSON and how it works? So basically, JSON stands for JavaScript Object Notation. JSON is a lightweight format for storing and transporting data. JSON is often used when data is sent from a server to a web page.
+API  is a computing interface which defines interactions between multiple software intermediaries. In other simple words, It defines the kinds of calls or requests that can be made, how to make them, the data formats that should be used, the conventions to follow, etc.
+
+Now talk about JSON, JSON stands for JavaScript Object Notation. JSON is a lightweight format for storing and transporting data. JSON is often used when data is sent from a server to a web page.
 
 In this microbyte, we will going to fetch data from the given URL. URL is taken from the website [FAKEJSON Placeholder](https://jsonplaceholder.typicode.com/). This website allows  you to use fake Online REST API for testing and prototyping with no cose. It is absolutely free.
 
+
+Reference:<br/>
+[API - Application Programming Interface](https://www.mulesoft.com/resources/api/what-is-an-api)<br/>
+[JSON - JavaScript Object Notation](https://www.w3schools.com/whatis/whatis_json.asp#:~:text=JSON%20stands%20for%20JavaScript%20Object,server%20to%20a%20web%20page)
 
 # Prerequisites
 
 You need to familiar with JAVA basics and some XML for styling the app.<br/><br/>1. You need to install the JDK(Java Development Kit) and Android Studio on your local machine.
 
 Reference: <br/>
-[Installing JDK 1](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)<br/>
-[Installing JDK 2](https://rb.gy/qvic45)<br/>
+[Installing JDK (Mirror Link 1)](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)<br/>
+[Installing JDK (Mirror Link 2)](https://rb.gy/qvic45)<br/>
 [Installing Android Studio](https://rb.gy/6op4ac)
 
 You can replace your "activity_main.xml" and "MainActivity.java" with our "activity_main.xml" and "MainActivity.java" or you can simply copy the code and paste it into your file.
@@ -38,7 +44,7 @@ After contributing in this project, the learner knows:
 ## Activity 1: Allow Permissions and adding dependencies
 
 There are some permissions which would required to fetching the data from the url. You can add permissions in your "AndroidManifest.xml" file. Permissions like Usage of Internet will require to fetching the data.
-Now it's time to use Volley Library, you must need to add the ependencies of the library. You can get the library dependencies from [there](https://developer.android.com/training/volley). Don't worry if you don't know how to add the dependencies in android studio. Go through the reference link and explore.<br/>
+Now it's time to use Volley Library, you must need to add the dependencies of the library. You can get the library dependencies from [there](https://developer.android.com/training/volley). Don't worry if you don't know how to add the dependencies in android studio. Go through the reference link and explore.<br/>
 
 Reference:<br/>
 [Allow Permissions](https://java2blog.com/add-internet-permission-in-androidmanifest-android-studio/)<br/>
@@ -47,7 +53,9 @@ Reference:<br/>
 
 ## Activity 2: Coding Phase in MainActivity.java
 
-This is the coding phase and you would need to code in your "MainActivity.java" fille. Now it's time to fetching data from the given URL, you can take url from [FAKEJSON Placeholder](https://jsonplaceholder.typicode.com/). You are required to use the "Logcat terminal" in the android studio to see the response getting from the url you use. <br/><br/>
+This is the coding phase and you would need to code in your "MainActivity.java" fille. Now it's time to fetching data from the given URL, you can take url from [FAKEJSON Placeholder](https://jsonplaceholder.typicode.com/). Before dive into the code, we will want to aware of "Logcat Terminal". Logcat is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class. You are required to use the Logcat Terminal in the android studio to see the response getting from the url you use. Below are the reference links, please go through these reference links to understand more clearly about Logcat Terminal.<br/><br/>
+
+There is some code of "MainActivity.java" file provided to you below where you need to write your own code.
 
 ```
     @Override
@@ -71,11 +79,12 @@ In this screenshot, there is all the data contain by this [URL](https://jsonplac
 Screenshot 2: <br/>
 <img src="./images/screenshot_1.PNG" alt="screenshot"/><br/>
 
-In this screenshot, there is a some details about "Logcat Terminal". After fetching the data, your response will looks like that. Don't worry, if you feel low. We will provided to you a reference link.
+In this screenshot, there is a some response in the "Logcat Terminal". After fetching the data, your response will looks like that. Don't worry, if you feel low. We will provided to you a reference link.
 
 Reference:<br/>
-[Reference link 1](https://medium.com/techpin/https-medium-com-s2purno-volley-get-and-post-jsonobject-request-46fb8a46f799)<br/>
-[Reference link 2](https://stackoverflow.com/questions/19837820/volley-jsonobjectrequest-post-request-not-working)<br/>
+[Volley GET and POST Request(Mirror Link 1)](https://medium.com/techpin/https-medium-com-s2purno-volley-get-and-post-jsonobject-request-46fb8a46f799)<br/>
+[Volley GET and POST Request(Mirror Link 2)](https://stackoverflow.com/questions/19837820/volley-jsonobjectrequest-post-request-not-working)<br/>
+[Logcat terminal](https://developer.android.com/studio/command-line/logcat)
 [How to use the Logcat Terminal for debugging](https://developer.android.com/studio/debug/am-logcat)
 <br/><br/><br/>
 There are some more screenshots provided to you in the images folder for your convinience.
@@ -83,7 +92,7 @@ There are some more screenshots provided to you in the images folder for your co
 
 ## Activity 3: Display content to the user's screen
 
-We were always used the "Logcat Terminal" to see the response. What if the response is required to show the details to the user? I mean to say that you was successfully fetching the data and see the response in "Logcat Terminal". Now it's time to show the details to the user by creating a beautiful UI/LAYOUT of the app. There are some reference links which will helps you for sure.<br/><br/>
+We have always used the "Logcat Terminal" to see the response. What if the response is required to show the details to the user? I mean to say that you was successfully fetching the data and see the response in "Logcat Terminal". Now it's time to show the details to the user by creating a beautiful UI/LAYOUT of the app. There are some reference links which will helps you for sure.<br/><br/>
 Reference:<br/>
 [How to show the fetching data to the user via TextView](https://developer.android.com/reference/android/widget/TextView)<br/>
 
