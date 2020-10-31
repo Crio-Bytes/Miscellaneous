@@ -28,7 +28,7 @@ Open the code directory at `src/python`. The file `Activity (1).py` contains the
 
 <details>
 <summary>Expected Output (click to expand)</summary>
-<img src='./images/Activity-1.png' width='100%'/>
+<img src='./images/activity-1.png' width='100%'/>
 </details>
 
 <details>
@@ -55,7 +55,7 @@ Open the code directory at `src/python`. The file `Activity (2).py` contains the
 
 <details>
 <summary>Expected Output (click to expand)</summary>
-<img src='./images/Activity-2.png' width='100%'/>
+<img src='./images/activity-2.png' width='100%'/>
 </details>
 
 <details>
@@ -100,7 +100,7 @@ Kernels are normalized to make sure colour values do not overflow the limit.
 
 <details>
 <summary>Expected Output (click to expand)</summary>
-<img src='./images/Activity-4.png' width='100%'/>
+<img src='./images/activity-4.png' width='100%'/>
 </details>
 
 **Challenge Questions**
